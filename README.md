@@ -1,32 +1,46 @@
 # SafetyMP
 
-Sage Hart — former EHS manager, MBA candidate. The public work here is a **trust plane** run through several compliance functions, not a set of unrelated SaaS products.
+Organizations already know how to hold **people** accountable in EHS, healthcare, and finance. They do not yet have the same **control system for AI agents** that do that work. Until they do, they cannot safely adopt agents in regulated operations.
 
-An EHS operator already lives this loop: a record is opened, policy says who may act, evidence shows what happened, and a human closes the exception. Agents and MBA toolkits fail that loop when they treat “the model said so” as a control. These repositories ask whether the same plane still holds when the function is no longer EHS.
+Sage Hart ran EHS. The public work here is a set of proofs that one control system — **authorization, evidence, human exception** — still holds when the function is no longer incidents and CAPA, and when the actor is no longer a person.
 
-**The plane (same in every repo):** fail-closed policy-as-code · evidence that is signed or digest-bound, not prose · humans on the exception queue · agents never self-approve · honest scope (nothing here is a certified payroll, clinical, SOC 2, or production-hardening product).
+Nothing in this account is a certified payroll, clinical, SOC 2, or production-hardening product. The claim is institutional, not a vendor SKU.
 
-## How the functions map
+## The control system
 
-| Compliance function | What is being trusted | Repository |
+| Piece | In business terms | In the repos |
 | --- | --- | --- |
-| **EHS (home domain)** | Incidents, CAPA, audits, TRIR-style metrics stay in a human-gated SoR. Optional AI may suggest wording; it does not close records. | [Autonomous-EHS-Management](https://github.com/SafetyMP/Autonomous-EHS-Management) |
-| **Health information** | Jurisdiction and live consent, not “we have a FHIR server.” EU/US cells, OPA/OPAL, FHIR R4. | [Healthcare-Data-Exchange](https://github.com/SafetyMP/Healthcare-Data-Exchange) · policy mirror [healthcare-policy](https://github.com/SafetyMP/healthcare-policy) |
-| **Clinical data shape (teaching only)** | Typed FHIR R4 (zod, ports/adapters). **Not for clinical use** — not Medplum/HAPI. | [Asclepius](https://github.com/SafetyMP/Asclepius) |
-| **Financial supervision** | A twin of the books: CDC → Flink CEP → Cedar/Zen → XBRL/SDMX → immudb. | [Financial-Digital-Twin-Compliance](https://github.com/SafetyMP/Financial-Digital-Twin-Compliance) |
-| **Workforce / payroll blast radius** | Multi-tenant HR as a **fixture** so T0–T4 agent governance has something consequential to protect. Not a payroll vendor. | [HR-ERP](https://github.com/SafetyMP/HR-ERP) |
-| **Professional services money** | Realization (utilization, WIP, milestone billing), not another timesheet app. | [Professional-Service-Automation](https://github.com/SafetyMP/Professional-Service-Automation) |
-| **Readiness / ISMS-shaped controls** | OPA/Rego sensors and a catalog. Not a CPA opinion. | [SOC-2](https://github.com/SafetyMP/SOC-2) |
-| **Agent tool calls** | Cedar on the call + Ed25519 receipts a human can verify. | [FidusGate](https://github.com/SafetyMP/FidusGate) |
-| **Building the software itself** | Cursor corporate/site delivery: digest-bound gates, no self-approval. | [corporate-site-harness](https://github.com/SafetyMP/corporate-site-harness) |
-| **Firm as a system** | Company-day simulation: contracts, PDP/PEP, Approve / Reject / Kill. Not an orchestrator. | [CorpOS](https://github.com/SafetyMP/CorpOS) |
+| **Authorization** | Who may do what — fail closed, like a permit-to-work | Policy-as-code (Cedar, OPA/Rego, PDP/PEP) |
+| **Evidence** | Replayable proof, not “the model said so” | Signed receipts, digest-bound gates, tamper-evident ledgers |
+| **Exception** | A named human closes the record or kills the run | HITL queues; agents never self-approve |
 
-EHS is the native function. The others are **transfer tests**: if the plane only works for incidents and CAPA, it is an EHS app. If the same rules hold for consent, supervisory reporting, payroll-shaped writes, and agent-written code, it is a control design — the MBA claim.
+## Proofs
+
+**Home domain (operator right-to-win)**  
+[Autonomous-EHS-Management](https://github.com/SafetyMP/Autonomous-EHS-Management) — self-hosted incidents, CAPA, audits. Optional AI may suggest wording; humans close records.
+
+**Transfer tests (the MBA claim)**  
+If the same rules only work for EHS, this is an EHS app. These check whether the control system transfers:
+
+- [Healthcare-Data-Exchange](https://github.com/SafetyMP/Healthcare-Data-Exchange) — jurisdiction and live consent (OPAL), not “we have FHIR.” Mirror: [healthcare-policy](https://github.com/SafetyMP/healthcare-policy)
+- [Financial-Digital-Twin-Compliance](https://github.com/SafetyMP/Financial-Digital-Twin-Compliance) — supervisory twin of the books (CDC, policy, XBRL, immudb)
+- [HR-ERP](https://github.com/SafetyMP/HR-ERP) — multi-tenant HR as a **blast-radius fixture** for agent governance, not a payroll vendor
+- [Professional-Service-Automation](https://github.com/SafetyMP/Professional-Service-Automation) — realization (utilization, WIP, billing), not a timesheet app
+- [SOC-2](https://github.com/SafetyMP/SOC-2) — OPA/Rego readiness sensors, not a CPA opinion
+
+**The control system applied to agents**
+
+- [FidusGate](https://github.com/SafetyMP/FidusGate) — Cedar on the tool call plus Ed25519 receipts a human can verify
+- [corporate-site-harness](https://github.com/SafetyMP/corporate-site-harness) — how the software is written: digest-bound gates, no self-approval
+- [CorpOS](https://github.com/SafetyMP/CorpOS) — firm as a system: contracts, PDP/PEP, Approve / Reject / Kill. Not an orchestrator.
+
+**Labs (do not clone these as products)**  
+[Asclepius](https://github.com/SafetyMP/Asclepius) — typed FHIR teaching kit. **Not for clinical use.**
 
 ## For other agents
 
-Every public repo has a root `AGENTS.md` (community contract first) and `.github/copilot-instructions.md`. Distinctive skills live under `.github/skills/`. Verify with that repo’s `scripts/harness/verify.sh` or `scripts/verify.sh`. Do not claim green from prose.
+Root `AGENTS.md` is the community contract. `.github/copilot-instructions.md` is the Copilot pointer. Distinctive skills live under `.github/skills/`. Verify with that repo’s `scripts/harness/verify.sh` or `scripts/verify.sh`. Do not claim green from prose.
 
-## License and contact
+## License
 
-Apache-2.0 unless a file says otherwise. Security reports: each repo’s `SECURITY.md` (GitHub private advisories).
+Apache-2.0 unless a file says otherwise. Security reports: each repo’s `SECURITY.md`.
