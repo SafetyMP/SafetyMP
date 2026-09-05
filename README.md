@@ -1,45 +1,44 @@
 # SafetyMP
 
-Organizations already know how to hold **people** accountable in EHS, healthcare, and finance. Agents are joining that work without the same controls.
+Most GitHub projects show that someone can ship a stack or wrap a model. These show a different skill: **specifying what an organization is allowed to believe.**
 
-Sage Hart ran EHS. The public repos prove the **pieces** of a control system for agent labor — **authorization, evidence, human exception** — in domain systems of record and on the agent path (tool calls, software delivery, a simulated firm). They do **not** yet prove one agent performing EHS, clinical, or supervisory-finance work end-to-end under all three. Composition is the open claim.
+Sage Hart ran EHS. The instinct is the same one a site manager uses on a contractor: no authorization, no work; no named closer, no record; no replayable evidence, it did not happen. The public repos are exhibits of that instinct when the actor is a person, a model, or a coding agent — not a catalog of products.
 
-Nothing in this account is a certified payroll, clinical, SOC 2, or production-hardening product. The claim is institutional, not a vendor SKU.
+Nothing here is a certified payroll, clinical, SOC 2, or production-hardening product. Labelling the limit is part of the work.
 
-## The control system
+## The instinct, in practice
 
-| Piece | In business terms | In the repos |
-| --- | --- | --- |
-| **Authorization** | Who may do what — fail closed, like a permit-to-work | Policy-as-code (Cedar, OPA/Rego, PDP/PEP) |
-| **Evidence** | Replayable proof, not “the model said so” | Signed receipts, digest-bound gates, tamper-evident ledgers |
-| **Exception** | A named human closes the record or kills the run | HITL queues; agents never self-approve |
+| Refusal | What must not count as done |
+| --- | --- |
+| **No permit, no work** | Fail-closed authorization (policy-as-code, credentials not query params) |
+| **No named closer, no record** | Drafts and model output stay non-authoritative until a human persists them |
+| **No evidence, it did not happen** | Receipts, digests, audit logs — not README prose |
 
-## Proofs
+The unfinished join: these pieces exist on domain systems of record *and* on the agent path. They are not yet one path where an agent performs EHS, clinical, or supervisory-finance work under all three.
 
-**Home domain (operator right-to-win)**  
-[Autonomous-EHS-Management](https://github.com/SafetyMP/Autonomous-EHS-Management) — self-hosted incidents, CAPA, audits. Optional AI may suggest wording; humans close records.
+## Exhibits
 
-**Domain SoRs (human/event accountability, transferred across functions)**  
-These show the operator pattern — policy, audit, named closer — outside EHS. They are not yet agent-operated functions.
+**Home domain** — [Autonomous-EHS-Management](https://github.com/SafetyMP/Autonomous-EHS-Management). Optional AI may suggest wording; humans close records.
 
-- [Healthcare-Data-Exchange](https://github.com/SafetyMP/Healthcare-Data-Exchange) — jurisdiction and live consent (OPAL), not “we have FHIR.” Mirror: [healthcare-policy](https://github.com/SafetyMP/healthcare-policy)
-- [Financial-Digital-Twin-Compliance](https://github.com/SafetyMP/Financial-Digital-Twin-Compliance) — supervisory twin of the books (CDC, Cedar/Zen on events, XBRL, immudb)
-- [HR-ERP](https://github.com/SafetyMP/HR-ERP) — multi-tenant HR as a **blast-radius fixture** for *coding-agent* governance, not a payroll vendor
-- [Professional-Service-Automation](https://github.com/SafetyMP/Professional-Service-Automation) — realization (utilization, WIP, billing), not a timesheet app
-- [SOC-2](https://github.com/SafetyMP/SOC-2) — OPA/Rego readiness sensors, not a CPA opinion
+**Same refusal, other functions** (human/event SoRs, not agent-operated products)
 
-**Agent path (the control system where the actor is an agent)**
+- [Healthcare-Data-Exchange](https://github.com/SafetyMP/Healthcare-Data-Exchange) — jurisdiction and live consent; walking skeleton, not an ATO. Mirror: [healthcare-policy](https://github.com/SafetyMP/healthcare-policy)
+- [Financial-Digital-Twin-Compliance](https://github.com/SafetyMP/Financial-Digital-Twin-Compliance) — Cedar/Zen on events, immudb ledger
+- [HR-ERP](https://github.com/SafetyMP/HR-ERP) — HR as blast-radius fixture for *coding-agent* governance; not a payroll vendor
+- [Professional-Service-Automation](https://github.com/SafetyMP/Professional-Service-Automation) — realization kernel, not a timesheet app
+- [SOC-2](https://github.com/SafetyMP/SOC-2) — OPA sensors; not a CPA opinion
 
-- [FidusGate](https://github.com/SafetyMP/FidusGate) — Cedar on the tool call plus Ed25519 receipts a human can verify
-- [corporate-site-harness](https://github.com/SafetyMP/corporate-site-harness) — how the software is written: digest-bound gates, no self-approval
-- [CorpOS](https://github.com/SafetyMP/CorpOS) — firm as a system: contracts, PDP/PEP, Approve / Reject / Kill. Not an orchestrator.
+**Same refusal, when the actor is an agent**
 
-**Labs (do not clone these as products)**  
-[Asclepius](https://github.com/SafetyMP/Asclepius) — typed FHIR teaching kit. **Not for clinical use.**
+- [FidusGate](https://github.com/SafetyMP/FidusGate) — Cedar plus Ed25519 receipts on MCP tool calls
+- [corporate-site-harness](https://github.com/SafetyMP/corporate-site-harness) — digest-bound delivery; agents never self-approve
+- [CorpOS](https://github.com/SafetyMP/CorpOS) — simulated firm; Approve / Reject / Kill
+
+**Lab** — [Asclepius](https://github.com/SafetyMP/Asclepius). Typed FHIR teaching kit. **Not for clinical use.**
 
 ## For other agents
 
-Root `AGENTS.md` is the community contract. `.github/copilot-instructions.md` is the Copilot pointer. Distinctive skills live under `.github/skills/`. Verify with that repo’s `scripts/harness/verify.sh` or `scripts/verify.sh`. Do not claim green from prose.
+Root `AGENTS.md` is the community contract. Verify with that repo’s `scripts/harness/verify.sh` or `scripts/verify.sh`. Do not claim green from prose.
 
 ## License
 
