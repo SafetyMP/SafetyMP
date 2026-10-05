@@ -1,45 +1,66 @@
-# SafetyMP
+# Sage Hart | Program Strategy, Enterprise Operations & Technology
 
-Most GitHub projects show that someone can ship a stack or wrap a model. These show a different skill: **specifying what an organization is allowed to believe.**
+I build systems and prototypes around a recurring business problem:
 
-Sage Hart ran EHS. The instinct is the same one a site manager uses on a contractor: no authorization, no work; no named closer, no record; no replayable evidence, it did not happen. The public repos are exhibits of that instinct when the actor is a person, a model, or a coding agent — not a catalog of products.
+How do organizations turn new technology into operating capability without losing control of execution?
 
-Nothing here is a certified payroll, clinical, SOC 2, or production-hardening product. Labelling the limit is part of the work.
+My background spans operations, risk, EHS, AI strategy, supply chain, and enterprise transformation. These repositories are public experiments in how organizations can structure decisions, workflows, controls, and accountability when technology becomes part of the operating model.
 
-## The instinct, in practice
+The goal is not to build a catalog of production products. It is to explore how complex programs can move from concept to implementation with clear ownership, reliable evidence, and practical governance.
 
-| Refusal | What must not count as done |
-| --- | --- |
-| **No permit, no work** | Fail-closed authorization (policy-as-code, credentials not query params) |
-| **No named closer, no record** | Drafts and model output stay non-authoritative until a human persists them |
-| **No evidence, it did not happen** | Receipts, digests, audit logs — not README prose |
+## What I work on
 
-The unfinished join: these pieces exist on domain systems of record *and* on the agent path. They are not yet one path where an agent performs EHS, clinical, or supervisory-finance work under all three.
+- Enterprise AI implementation and governance
+- Program and operating model design
+- Decision systems and workflow automation
+- Risk, controls, and human-in-the-loop mechanisms
+- Supply chain and enterprise operations
+- Agent-enabled business processes
+- Technical prototypes for regulated and high-consequence environments
 
-## Exhibits
+## Selected projects
 
-**Home domain** — [Autonomous-EHS-Management](https://github.com/SafetyMP/Autonomous-EHS-Management). Optional AI may suggest wording; humans close records.
+### Autonomous EHS Management
+A self-hosted EHS operating system covering incidents, CAPA, audits, and operational metrics.
 
-**Same refusal, other functions** (human/event SoRs, not agent-operated products)
+The project explores how AI can support business workflows while keeping final decisions and record closure under human control.
 
-- [Healthcare-Data-Exchange](https://github.com/SafetyMP/Healthcare-Data-Exchange) — jurisdiction and live consent; walking skeleton, not an ATO. Mirror: [healthcare-policy](https://github.com/SafetyMP/healthcare-policy)
-- [Financial-Digital-Twin-Compliance](https://github.com/SafetyMP/Financial-Digital-Twin-Compliance) — Cedar/Zen on events, immudb ledger
-- [HR-ERP](https://github.com/SafetyMP/HR-ERP) — HR as blast-radius fixture for *coding-agent* governance; not a payroll vendor
-- [Professional-Service-Automation](https://github.com/SafetyMP/Professional-Service-Automation) — realization kernel, not a timesheet app
-- [SOC-2](https://github.com/SafetyMP/SOC-2) — OPA sensors; not a CPA opinion
+### FidusGate
+A governance layer for agent tool use built around policy gates, authorization, and verifiable execution receipts.
 
-**Same refusal, when the actor is an agent**
+The broader question: how should organizations control autonomous systems when agents begin taking actions inside enterprise workflows?
 
-- [FidusGate](https://github.com/SafetyMP/FidusGate) — Cedar plus Ed25519 receipts on MCP tool calls
-- [corporate-site-harness](https://github.com/SafetyMP/corporate-site-harness) — digest-bound delivery; agents never self-approve
-- [CorpOS](https://github.com/SafetyMP/CorpOS) — simulated firm; Approve / Reject / Kill
+### CorpOS
+A simulated company environment for testing how work, approvals, escalation, and governance interact.
 
-**Lab** — [Asclepius](https://github.com/SafetyMP/Asclepius). Typed FHIR teaching kit. **Not for clinical use.**
+The project explores operating mechanisms for organizations that increasingly rely on AI-supported decision making.
 
-## For other agents
+### HR ERP
+A multi-tenant HR system used as a test environment for agent governance, workflow controls, and evidence generation.
 
-Root `AGENTS.md` is the community contract. Verify with that repo’s `scripts/harness/verify.sh` or `scripts/verify.sh`. Do not claim green from prose.
+### Financial Digital Twin Compliance
+A supervisory financial-compliance prototype combining event processing, policy controls, and immutable audit records.
 
-## License
+### Healthcare Data Exchange / Asclepius
+Healthcare prototypes exploring consent, interoperability, policy enforcement, and structured clinical data.
 
-Apache-2.0 unless a file says otherwise. Security reports: each repo’s `SECURITY.md`.
+## The common thread
+
+The domains change, but the operating problem is similar:
+
+1. Define the objective.
+2. Identify the constraints.
+3. Establish ownership.
+4. Design the operating mechanism.
+5. Build the control structure.
+6. Test whether the system works under pressure.
+
+That is the same approach I use in program strategy and enterprise transformation.
+
+I am particularly interested in programs where technology changes how organizations make decisions, allocate resources, manage risk, and operate at scale.
+
+## Current focus
+
+Program strategy, enterprise operations, AI-enabled transformation, and the systems required to move complex initiatives from concept to implementation.
+
+LinkedIn: linkedin.com/in/sage-hart-csp
