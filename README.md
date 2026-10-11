@@ -4,11 +4,11 @@ Public experiments in how an organization keeps a record when software is involv
 
 ## Start here
 
-- [Autonomous-EHS-Management](https://github.com/SafetyMP/Autonomous-EHS-Management) — self-hosted console for incidents, CAPA, and TRIR on PostgreSQL. Optional AI may suggest wording. A person closes the record. Not an OSHA filing tool. This is the repository to clone.
+- [Autonomous-EHS-Management](https://github.com/SafetyMP/Autonomous-EHS-Management) — record an incident, walk a CAPA to verified, and read a TRIR that uses annual hours when the month grid is incomplete. Optional AI may suggest wording. A person closes the record. Not an OSHA filing tool. This is the repository to clone.
 
 ## Reference, not a product
 
-- [FidusGate](https://github.com/SafetyMP/FidusGate) — MCP gateway and admin console. `npm run dev` does not start the Cedar daemon. A down daemon denies the call. `tools/call` does not mint a receipt. Not a production security product.
+- [FidusGate](https://github.com/SafetyMP/FidusGate) — an MCP tool call that records a decision and an Ed25519 receipt. `npm run dev` does not start the Cedar daemon. A down daemon denies the call. Not a production security product.
 - [CorpOS](https://github.com/SafetyMP/CorpOS) — one scripted company day. Not an agent framework and not production SaaS.
 - [corporate-site-harness](https://github.com/SafetyMP/corporate-site-harness) — evidence-gated Cursor delivery. Not a production governance product.
 - [HR-ERP](https://github.com/SafetyMP/HR-ERP) — multi-tenant fixture for agent-governance tests. Not a certified payroll product.
