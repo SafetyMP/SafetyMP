@@ -1,0 +1,12 @@
+name: Profile index
+description: Correct the profile README or the list of public repositories.
+title: "Profile: "
+labels: []
+body:
+  - type: textarea
+    id: change
+    attributes:
+      label: What should the profile say?
+      description: Include the repository name and the one-line job. Product bugs belong on that repository.
+    validations:
+      required: true

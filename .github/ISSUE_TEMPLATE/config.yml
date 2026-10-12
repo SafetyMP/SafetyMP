@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Autonomous-EHS-Management
+    url: https://github.com/SafetyMP/Autonomous-EHS-Management/issues/new/choose
+    about: Incidents, CAPA, and TRIR.
+  - name: FidusGate
+    url: https://github.com/SafetyMP/FidusGate/issues/new/choose
+    about: MCP tool-call decision and Ed25519 receipt.
+  - name: Other public repositories
+    url: https://github.com/SafetyMP/SafetyMP/blob/main/README.md
+    about: Product issues belong on the repository named in the profile README.
