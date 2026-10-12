@@ -13,8 +13,8 @@ Public experiments in how an organization keeps a record when software is involv
 - [corporate-site-harness](https://github.com/SafetyMP/corporate-site-harness) — evidence-gated Cursor delivery. Not a production governance product.
 - [HR-ERP](https://github.com/SafetyMP/HR-ERP) — multi-tenant fixture for agent-governance tests. Not a certified payroll product.
 - [Professional-Service-Automation](https://github.com/SafetyMP/Professional-Service-Automation) — consulting billing sketch. Not a time-tracker replacement.
-- [Financial-Digital-Twin-Compliance](https://github.com/SafetyMP/Financial-Digital-Twin-Compliance) — Compose path for one mock payment through CDC, Flink, Cedar, and immudb. Not a core-banking system.
-- [Healthcare-Data-Exchange](https://github.com/SafetyMP/Healthcare-Data-Exchange) — two-cell FHIR sketch. Not a production exchange. Policy edits belong in this repository.
+- [Financial-Digital-Twin-Compliance](https://github.com/SafetyMP/Financial-Digital-Twin-Compliance) — one mock payment through Debezium, a per-record Flink streaming job, Cedar, and immudb. Not Flink CEP, XBRL, SDMX, or a core-banking system.
+- [Healthcare-Data-Exchange](https://github.com/SafetyMP/Healthcare-Data-Exchange) — one Compose stack. A synthetic FHIR R4 Patient is read from an EU or US HAPI cell only after a per-cell bearer passes OPA. Not a health-information exchange. Policy edits belong in this repository.
 - [healthcare-policy](https://github.com/SafetyMP/healthcare-policy) — OPAL mirror of Healthcare-Data-Exchange. Do not edit Rego here.
 - [Asclepius](https://github.com/SafetyMP/Asclepius) — nine-resource FHIR teaching kit. Not for clinical use. Not Medplum or HAPI.
 - [SOC-2](https://github.com/SafetyMP/SOC-2) — small OPA sensor pack. Not a certification and not a claim of one.
