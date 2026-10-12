@@ -19,6 +19,8 @@ Public experiments in how an organization keeps a record when software is involv
 - [Asclepius](https://github.com/SafetyMP/Asclepius) — nine-resource FHIR teaching kit. Not for clinical use. Not Medplum or HAPI.
 - [SOC-2](https://github.com/SafetyMP/SOC-2) — small OPA sensor pack. Not a certification and not a claim of one.
 
-The application repositories are Apache-2.0. This profile has no application code.
+The application repositories are Apache-2.0. This profile is too: [LICENSE](LICENSE). It has no application code.
+
+Product changes belong on the product repository ([Contributing](CONTRIBUTING.md)). Vulnerability reports belong on the product repository ([Security](SECURITY.md)).
 
 LinkedIn: [sage-hart-csp](https://www.linkedin.com/in/sage-hart-csp)
