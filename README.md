@@ -8,6 +8,7 @@ Public experiments in how an organization keeps a record when software is involv
 
 ## Reference, not a product
 
+- [Agentic-Process-Safety (APS)](https://github.com/SafetyMP/Agentic-Process-Safety) — deterministic HAZOP screening, a simulated procurement swarm and an interactive browser explorer. Research sandbox with unverified hazards and proposed controls. No real purchases, safety certification or production protection.
 - [FidusGate](https://github.com/SafetyMP/FidusGate) — an MCP tool call that records a decision and an Ed25519 receipt. `npm run dev` does not start the Cedar daemon. A down daemon denies the call. Not a production security product.
 - [CorpOS](https://github.com/SafetyMP/CorpOS) — one scripted company day. Not an agent framework and not production SaaS.
 - [corporate-site-harness](https://github.com/SafetyMP/corporate-site-harness) — evidence-gated Cursor delivery. Not a production governance product.
