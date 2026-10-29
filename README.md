@@ -2,7 +2,7 @@
 
 **AI governance, agentic process safety and enterprise operations.**
 
-I build public experiments in how organizations control AI agents, enforce authorization policies and preserve operational records. This portfolio covers HAZOP hazard analysis for multi-agent systems, policy gateways, evidence-gated software delivery, and systems of record for environmental health and safety (EHS), healthcare and finance.
+I build public experiments in how organizations control AI agents, enforce authorization policies and preserve operational records. This portfolio covers HAZOP hazard analysis for multi-agent systems, policy gateways, evidence-gated software delivery, commerce integration testing, and systems of record for environmental health and safety (EHS), healthcare and finance.
 
 These repositories are research and reference implementations. Each project documents its scope, evidence and limitations.
 
@@ -14,10 +14,13 @@ These repositories are research and reference implementations. Each project docu
 | AI agent governance, authorization and audit receipts | [FidusGate MCP policy gateway](https://github.com/SafetyMP/FidusGate) · [CorpOS company-day simulation](https://github.com/SafetyMP/CorpOS) |
 | Evidence-gated agent-assisted software delivery | [Corporate/Site Harness](https://github.com/SafetyMP/corporate-site-harness) |
 | Operational records and policy-as-code | [EHS incident and CAPA console](https://github.com/SafetyMP/Autonomous-EHS-Management) · [FHIR healthcare data sandbox](https://github.com/SafetyMP/Healthcare-Data-Exchange) · [Financial compliance reference](https://github.com/SafetyMP/Financial-Digital-Twin-Compliance) |
+| Commerce integration reliability | [Commerce Reliability Kit](https://github.com/SafetyMP/commerce-reliability-kit) · [Synthetic browser demo](https://safetymp.github.io/commerce-reliability-kit/) |
 
 ## Start here
 
 - [Autonomous-EHS-Management](https://github.com/SafetyMP/Autonomous-EHS-Management) — record an incident, walk a corrective and preventive action (CAPA) to verified, and read a total recordable incident rate (TRIR) that uses annual hours when the month grid is incomplete. Optional AI may suggest wording. A person closes the record. Not an OSHA filing tool. This is the repository to clone.
+
+- [Commerce Reliability Kit](https://github.com/SafetyMP/commerce-reliability-kit) — order, fulfillment, and inventory integration testing for agencies, connector engineers, warehouse and fulfillment software teams, and merchant technical teams. Reproduce a failure, inspect evidence, and compare faulty and corrected behavior. Early Node CLI/library with 24 synthetic scenarios; [try the separate six-fixture browser demo](https://safetymp.github.io/commerce-reliability-kit/). No merchant accounts are connected, and demo outcomes do not validate a production integration.
 
 ## Reference, not a product
 
