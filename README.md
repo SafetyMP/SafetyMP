@@ -1,26 +1,32 @@
 # Sage Hart | SafetyMP
 
-**AI governance, agentic process safety and enterprise operations.**
+**Reliable, sustainable AI operations through effective risk management.**
 
-I build public experiments in how organizations control AI agents, enforce authorization policies and preserve operational records. This portfolio covers HAZOP hazard analysis for multi-agent systems, policy gateways, evidence-gated software delivery, commerce integration testing, and systems of record for environmental health and safety (EHS), healthcare and finance.
+The next challenge for organizations isn't simply adopting AI. It's making AI dependable enough to operate at scale. As agents make decisions and act across systems, risk becomes more dynamic. Sustainable adoption requires clear ownership, controls that work inside workflows, and evidence that systems behave as intended.
 
-These repositories are research and reference implementations. Each project documents its scope, evidence and limitations.
+My experience across Amazon, AB InBev, SGS, and chemical manufacturing shaped a practical view of reliability: define the objective, identify the constraints, establish accountability, build the mechanism, and test whether it works.
 
-## Explore by topic
+**My thesis: manage risk without sacrificing innovation.** The objective isn't to eliminate uncertainty. It's to understand failure modes, contain harmful outcomes, and maintain the flexibility to adapt and compete.
 
-| Area | Projects |
+SafetyMP is where I build in public at the intersection of **enterprise operations, AI, and risk**. These repositories explore concrete mechanisms, not claims of production readiness.
+
+## Explore by operating challenge
+
+| Operating question | Research and reference projects |
 | --- | --- |
-| Agentic process safety and HAZOP hazard analysis | [Agentic Process Safety (APS)](https://github.com/SafetyMP/Agentic-Process-Safety) |
-| AI agent governance, authorization and audit receipts | [FidusGate MCP policy gateway](https://github.com/SafetyMP/FidusGate) · [CorpOS company-day simulation](https://github.com/SafetyMP/CorpOS) |
-| Evidence-gated agent-assisted software delivery | [Corporate/Site Harness](https://github.com/SafetyMP/corporate-site-harness) |
-| Operational records and policy-as-code | [EHS incident and CAPA console](https://github.com/SafetyMP/Autonomous-EHS-Management) · [FHIR healthcare data sandbox](https://github.com/SafetyMP/Healthcare-Data-Exchange) · [Financial compliance reference](https://github.com/SafetyMP/Financial-Digital-Twin-Compliance) |
-| Commerce integration reliability | [Commerce Reliability Kit](https://github.com/SafetyMP/commerce-reliability-kit) · [Synthetic browser demo](https://safetymp.github.io/commerce-reliability-kit/) |
+| **What can go wrong when agents collaborate?** | [Agentic Process Safety (APS)](https://github.com/SafetyMP/Agentic-Process-Safety) — HAZOP-style analysis, simulated agent workflows, and proposed controls |
+| **Who or what is authorized to act?** | [FidusGate](https://github.com/SafetyMP/FidusGate) — MCP tool-call policy decisions and signed receipts · [CorpOS](https://github.com/SafetyMP/CorpOS) — simulated handoffs and human approvals |
+| **What evidence should be required before work advances?** | [Corporate/Site Harness](https://github.com/SafetyMP/corporate-site-harness) — digest-bound verification and approval gates for agent-assisted software delivery |
+| **How do operations retain accountability?** | [Autonomous EHS Management](https://github.com/SafetyMP/Autonomous-EHS-Management) — incident records and human-verified corrective actions · [Healthcare data sandbox](https://github.com/SafetyMP/Healthcare-Data-Exchange) · [Financial compliance reference](https://github.com/SafetyMP/Financial-Digital-Twin-Compliance) |
+| **How do we detect failures across system boundaries?** | [Commerce Reliability Kit](https://github.com/SafetyMP/commerce-reliability-kit) — reproducible order, fulfillment, and inventory integration tests · [Browser demo](https://safetymp.github.io/commerce-reliability-kit/) |
 
 ## Start here
 
-- [Autonomous-EHS-Management](https://github.com/SafetyMP/Autonomous-EHS-Management) — record an incident, walk a corrective and preventive action (CAPA) to verified, and read a total recordable incident rate (TRIR) that uses annual hours when the month grid is incomplete. Optional AI may suggest wording. A person closes the record. Not an OSHA filing tool. This is the repository to clone.
+- **Agent risk:** [Agentic Process Safety](https://github.com/SafetyMP/Agentic-Process-Safety) traces simulated agent decisions from hazards to proposed controls and test evidence. Research sandbox; not a safety certification or production protection.
+- **Decision controls:** [FidusGate](https://github.com/SafetyMP/FidusGate) demonstrates MCP authorization and signed receipts. The Cedar daemon must be started separately; this is not a production security product.
+- **Operational accountability:** [Autonomous EHS Management](https://github.com/SafetyMP/Autonomous-EHS-Management) lets you record an incident, move a corrective and preventive action (CAPA) through verification, and inspect TRIR reporting. Optional AI suggests wording; a person closes the record. Not an OSHA filing tool. **This is the repository to clone for an operational workflow.**
 
-## Reference, not a product
+## Reference implementations and limitations
 
 - [Commerce Reliability Kit](https://github.com/SafetyMP/commerce-reliability-kit) — order, fulfillment, and inventory integration testing for agencies, connector engineers, warehouse and fulfillment software teams, and merchant technical teams. Reproduce a failure, inspect evidence, and compare faulty and corrected behavior. Early Node CLI/library with 24 synthetic scenarios; [try the separate six-fixture browser demo](https://safetymp.github.io/commerce-reliability-kit/). No merchant accounts are connected, and demo outcomes do not validate a production integration.
 - [Agentic-Process-Safety (APS)](https://github.com/SafetyMP/Agentic-Process-Safety) — deterministic hazard and operability (HAZOP) screening for AI agent swarms, a simulated procurement workflow and an interactive browser explorer. Research sandbox with unverified hazards and proposed controls. No real purchases, safety certification or production protection.
