@@ -2,47 +2,77 @@
 
 **Reliable, sustainable AI operations through effective risk management.**
 
-The next challenge for organizations isn't simply adopting AI. It's making AI dependable enough to operate at scale. As agents make decisions and act across systems, risk becomes more dynamic. Sustainable adoption requires clear ownership, controls that work inside workflows, and evidence that systems behave as intended.
+I build open-source tools at the intersection of enterprise operations, AI, and risk. My experience across Amazon, AB InBev, SGS, and chemical manufacturing shapes a practical approach: define the objective, establish accountability, build the controls, and test whether they work.
 
-My experience across Amazon, AB InBev, SGS, and chemical manufacturing shaped a practical view of reliability: define the objective, identify the constraints, establish accountability, build the mechanism, and test whether it works.
+**My thesis: manage risk without sacrificing innovation.** These projects explore how people can understand automated decisions, inspect evidence, and retain authority over consequential actions.
 
-**My thesis: manage risk without sacrificing innovation.** The objective isn't to eliminate uncertainty. It's to understand failure modes, contain harmful outcomes, and maintain the flexibility to adapt and compete.
+[Explore the projects](#featured-projects) · [More of the portfolio](#more-of-the-portfolio) · [Connect on LinkedIn](https://www.linkedin.com/in/sage-hart-csp)
 
-SafetyMP is where I build in public at the intersection of **enterprise operations, AI, and risk**. These repositories explore concrete mechanisms, not claims of production readiness.
+## Featured projects
 
-## Explore by operating challenge
+### Agentic Process Safety — investigate agent failure modes
 
-| Operating question | Research and reference projects |
-| --- | --- |
-| **What can go wrong when agents collaborate?** | [Agentic Process Safety (APS)](https://github.com/SafetyMP/Agentic-Process-Safety) — HAZOP-style analysis, simulated agent workflows, and proposed controls |
-| **Who or what is authorized to act?** | [FidusGate](https://github.com/SafetyMP/FidusGate) — MCP tool-call policy decisions and signed receipts · [CorpOS](https://github.com/SafetyMP/CorpOS) — simulated handoffs and human approvals |
-| **What evidence should be required before work advances?** | [Corporate/Site Harness](https://github.com/SafetyMP/corporate-site-harness) — digest-bound verification and approval gates for agent-assisted software delivery |
-| **How do operations retain accountability?** | [Autonomous EHS Management](https://github.com/SafetyMP/Autonomous-EHS-Management) — incident records and human-verified corrective actions · [Healthcare data sandbox](https://github.com/SafetyMP/Healthcare-Data-Exchange) · [Financial compliance reference](https://github.com/SafetyMP/Financial-Digital-Twin-Compliance) |
-| **How do we detect failures across system boundaries?** | [Commerce Reliability Kit](https://github.com/SafetyMP/commerce-reliability-kit) — reproducible order, fulfillment, and inventory integration tests · [Browser demo](https://safetymp.github.io/commerce-reliability-kit/) |
+Compare the same agent request under different control conditions, trace why a decision changes, and form an evidence-backed position. The guided app connects procurement cases, HAZOP analysis, proposed controls, and recorded synthetic experiments.
 
-## Start here
+**Research and learning workspace.** Browser comparisons illustrate a fixed model; hazards remain unverified and controls proposed. No real purchases or safety certification.
 
-- **Agent risk:** [Agentic Process Safety](https://github.com/SafetyMP/Agentic-Process-Safety) traces simulated agent decisions from hazards to proposed controls and test evidence. Research sandbox; not a safety certification or production protection.
-- **Decision controls:** [FidusGate](https://github.com/SafetyMP/FidusGate) demonstrates MCP authorization and signed receipts. The Cedar daemon must be started separately; this is not a production security product.
-- **Operational accountability:** [Autonomous EHS Management](https://github.com/SafetyMP/Autonomous-EHS-Management) lets you record an incident, move a corrective and preventive action (CAPA) through verification, and inspect TRIR reporting. Optional AI suggests wording; a person closes the record. Not an OSHA filing tool. **This is the repository to clone for an operational workflow.**
+[Explore the app](https://safetymp.github.io/Agentic-Process-Safety/) · [Source](https://github.com/SafetyMP/Agentic-Process-Safety) · [Investigation guide](https://github.com/SafetyMP/Agentic-Process-Safety/blob/main/docs/USER_GUIDE.md)
 
-## Reference implementations and limitations
+### Autonomous EHS Management — connect incidents to accountable action
 
-- [Commerce Reliability Kit](https://github.com/SafetyMP/commerce-reliability-kit) — order, fulfillment, and inventory integration testing for agencies, connector engineers, warehouse and fulfillment software teams, and merchant technical teams. Reproduce a failure, inspect evidence, and compare faulty and corrected behavior. Early Node CLI/library with 24 synthetic scenarios; [try the separate six-fixture browser demo](https://safetymp.github.io/commerce-reliability-kit/). No merchant accounts are connected, and demo outcomes do not validate a production integration.
-- [Agentic-Process-Safety (APS)](https://github.com/SafetyMP/Agentic-Process-Safety) — deterministic hazard and operability (HAZOP) screening for AI agent swarms, a simulated procurement workflow and an interactive browser explorer. Research sandbox with unverified hazards and proposed controls. No real purchases, safety certification or production protection.
-- [FidusGate](https://github.com/SafetyMP/FidusGate) — a Model Context Protocol (MCP) tool call that records a decision and an Ed25519 receipt. `npm run dev` does not start the Cedar daemon. A down daemon denies the call. Not a production security product.
-- [CorpOS](https://github.com/SafetyMP/CorpOS) — one scripted company day. Not an agent framework and not production SaaS.
-- [corporate-site-harness](https://github.com/SafetyMP/corporate-site-harness) — evidence-gated Cursor delivery. Not a production governance product.
-- [HR-ERP](https://github.com/SafetyMP/HR-ERP) — multi-tenant fixture for agent-governance tests. Not a certified payroll product.
-- [Professional-Service-Automation](https://github.com/SafetyMP/Professional-Service-Automation) — consulting billing sketch. Not a time-tracker replacement.
-- [Financial-Digital-Twin-Compliance](https://github.com/SafetyMP/Financial-Digital-Twin-Compliance) — one mock payment through Debezium, a per-record Flink streaming job, Cedar, and immudb. Not Flink CEP, XBRL, SDMX, or a core-banking system.
-- [Healthcare-Data-Exchange](https://github.com/SafetyMP/Healthcare-Data-Exchange) — one Compose stack. A synthetic FHIR R4 Patient is read from an EU or US HAPI cell only after a per-cell bearer passes OPA. Not a health-information exchange. Policy edits belong in this repository.
-- [healthcare-policy](https://github.com/SafetyMP/healthcare-policy) — OPAL mirror of Healthcare-Data-Exchange. Do not edit Rego here.
-- [Asclepius](https://github.com/SafetyMP/Asclepius) — nine-resource FHIR teaching kit. Not for clinical use. Not Medplum or HAPI.
-- [SOC-2](https://github.com/SafetyMP/SOC-2) — small Open Policy Agent (OPA) sensor pack. Not a certification and not a claim of one.
+Self-hosted corporate EHS software for incident investigation, corrective and preventive actions (CAPA), approvals, and evidence across sites. Explore the corporate overview and incident-to-CAPA journey, or run the full application locally.
 
-The application repositories are Apache-2.0. This profile is too: [LICENSE](LICENSE). It has no application code.
+**Application with a synthetic, read-only walkthrough.** People retain approval and closure authority; module maturity varies. The demo does not validate a deployment or establish regulatory compliance.
 
-Product changes belong on the product repository ([Contributing](CONTRIBUTING.md)). Vulnerability reports belong on the product repository ([Security](SECURITY.md)).
+[Explore the walkthrough](https://safetymp.github.io/Autonomous-EHS-Management/) · [Source](https://github.com/SafetyMP/Autonomous-EHS-Management) · [Self-hosting guide](https://github.com/SafetyMP/Autonomous-EHS-Management/blob/main/docs/self-host-quickstart.md)
 
-LinkedIn: [Sage Hart](https://www.linkedin.com/in/sage-hart-csp)
+### FidusGate — understand tool-call decisions and verify receipts
+
+A Model Context Protocol (MCP) policy gateway and operator console combining Cedar authorization with signed decision receipts. Inspect allow/deny reasons, explore policy scenarios, and verify receipt signatures.
+
+**Reference implementation.** Public scenarios are synthetic; browser signature checks are real, but do not prove tool execution or issuer trust. Connected operations require the separate development gateway.
+
+[Try the demo](https://safetymp.github.io/FidusGate/) · [Source](https://github.com/SafetyMP/FidusGate) · [Local setup](https://github.com/SafetyMP/FidusGate/blob/main/docs/getting-started.md)
+
+### Financial Digital Twin — review financial monitoring issues
+
+A governance workspace for following alerts to supporting evidence, recording acknowledgements or escalations, and revisiting review history. The connected development workspace integrates alert and audit services with persistent reviews.
+
+**Synthetic public demo and separate connected development application.** Demo reviews stay in the browser. Connected mode uses a configured development identity; this is not a production banking or regulatory filing system.
+
+[Try the demo](https://safetymp.github.io/Financial-Digital-Twin-Compliance/) · [Source](https://github.com/SafetyMP/Financial-Digital-Twin-Compliance) · [Connected workspace](https://github.com/SafetyMP/Financial-Digital-Twin-Compliance/blob/main/docs/governance-integration.md)
+
+### Commerce Reliability Kit — reproduce integration failures
+
+Investigate order, fulfillment, and inventory discrepancies. Compare faulty and corrected behavior against the same evidence, inspect assertions, and export reports. A Node CLI and library support scenarios and normalized captures; the browser demo has its own evaluator.
+
+**Early toolkit with synthetic demonstrations.** Missing evidence can produce an inconclusive result. No merchant accounts are connected and demo outcomes do not validate a production integration.
+
+[Try the demo](https://safetymp.github.io/commerce-reliability-kit/) · [Source](https://github.com/SafetyMP/commerce-reliability-kit) · [CLI and library guide](https://github.com/SafetyMP/commerce-reliability-kit/blob/main/docs/cli-guide.md)
+
+## More of the portfolio
+
+| Project | What you can explore | Entry point |
+| --- | --- | --- |
+| [SOC-2](https://github.com/SafetyMP/SOC-2) | Local GitHub readiness assessment, finding review, next steps, and export. Three repository checks; not a complete SOC 2 assessment or certification. | [Synthetic demo](https://safetymp.github.io/SOC-2/) · [Local assessment](https://github.com/SafetyMP/SOC-2/blob/main/docs/local-github-assessment.md) |
+| [Healthcare Data Exchange](https://github.com/SafetyMP/Healthcare-Data-Exchange) | Guided consent, care-team, and regional-access scenarios, with a separate FHIR/OPA/OPAL backend reference. Synthetic data; no clinical use. | [Guided demo](https://safetymp.github.io/Healthcare-Data-Exchange/) |
+| [Asclepius](https://github.com/SafetyMP/Asclepius) | Fictional visit and referral journeys, linked health records, and a validation lab. Educational FHIR subset; no clinical use or full conformance claim. | [Learning app](https://safetymp.github.io/Asclepius/) |
+| [HR-ERP](https://github.com/SafetyMP/HR-ERP) | Multi-tenant HR fixture for agent governance, tenant isolation, and evidence gates. Synthetic employee/HR demo; not a production HRIS or certified payroll product. | [Browser demo](https://safetymp.github.io/HR-ERP/) |
+| [Professional Service Automation](https://github.com/SafetyMP/Professional-Service-Automation) | Consulting realization: approved time, work in progress, draft/issued invoices, and project margin. A scoped reference application. | [Source and setup](https://github.com/SafetyMP/Professional-Service-Automation#quick-start) |
+| [CorpOS](https://github.com/SafetyMP/CorpOS) | A scripted company day with agent handoffs, tool controls, and human approval. A simulation and reference architecture. | [Local demo](https://github.com/SafetyMP/CorpOS#demo) |
+
+**Supporting and historical repositories:** [healthcare-policy](https://github.com/SafetyMP/healthcare-policy) is the OPAL policy mirror; make policy changes in Healthcare Data Exchange. [Corporate/Site Harness](https://github.com/SafetyMP/corporate-site-harness) is an **archived** reference for digest-bound software-delivery gates and human approval.
+
+## How I approach the work
+
+- **Make the operating problem concrete:** a stale approval, an unresolved corrective action, an incomplete shipment, or an access decision.
+- **Keep evidence inspectable:** connect decisions to records, policy, tests, and explicit uncertainty.
+- **Build usable review workflows:** help people understand a result and decide what should happen next.
+
+The repositories span TypeScript/React interfaces, Python tooling, Go services, PostgreSQL, and policy-as-code with OPA/Rego and Cedar. Each project documents its own setup, architecture, checks, and limitations. A passing check supports its stated scope; it does not establish production readiness or certification.
+
+## Connect and contribute
+
+Connect with me on [LinkedIn](https://www.linkedin.com/in/sage-hart-csp). For project questions, bugs, and contributions, start with that repository's README and contribution guide. For profile corrections, see [Contributing](https://github.com/SafetyMP/SafetyMP/blob/main/CONTRIBUTING.md); report vulnerabilities through the affected project's [security policy](https://github.com/SafetyMP/SafetyMP/blob/main/SECURITY.md).
+
+Portfolio reviewed **November 14, 2026**. [Source and maintenance notes](https://github.com/SafetyMP/SafetyMP/blob/main/docs/portfolio-sources.md) · [Profile license: Apache-2.0](https://github.com/SafetyMP/SafetyMP/blob/main/LICENSE). Each linked project retains its own license and third-party terms.

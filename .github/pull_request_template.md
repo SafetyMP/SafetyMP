@@ -4,5 +4,8 @@
 
 ## Check
 
-- [ ] The README still names every public repository and what it refuses to be
+- [ ] Project descriptions match public source and distinguish demos, connected applications, and maturity limits
+- [ ] The public portfolio directory and archive labels are current
+- [ ] Changed links and rendered Markdown have been checked
+- [ ] Inventory changes update the review date and source notes
 - [ ] Product bug reports are not filed here
