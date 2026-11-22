@@ -12,7 +12,7 @@ The original APS case is still available. Try releasing the same purchase reques
 
 **Autonomous EHS Management.** As the shift supervisor, plan a short dock round. Which stops will let you hear from the people doing the work and see whether a control holds up on the floor?
 
-A plant manager could run the same follow-ups through the existing CAPA tracker and compare how often the next shift receives an actionable observation with a named owner. OSHA describes worker involvement and follow-up as part of confirming that controls remain effective. [OSHA pedestrian traffic at powered industrial truck workplaces](https://www.osha.gov/etools/powered-industrial-trucks/workplace/pedestrian-traffic) · [OSHA hazard prevention and control](https://www.osha.gov/safety-management/hazard-prevention)
+A plant manager could run the same follow-ups through the existing CAPA tracker and compare how often the next shift receives an actionable observation with a named owner. OSHA describes worker involvement and follow-up as part of confirming that controls remain effective. [29 CFR 1910.176(a), materials handling, 2024 edition](https://www.govinfo.gov/content/pkg/CFR-2024-title29-vol5/xhtml/CFR-2024-title29-vol5-sec1910-176.html) · [OSHA recommended practices for safety and health programs](https://www.govinfo.gov/content/pkg/GOVPUB-L35-PURL-gpo142334/pdf/GOVPUB-L35-PURL-gpo142334.pdf)
 
 [Build screenshot](demo-previews/Autonomous-EHS-Management.jpg) · [Review the change](https://github.com/SafetyMP/Autonomous-EHS-Management/pull/169) · [Published demo](https://safetymp.github.io/Autonomous-EHS-Management/)
 
@@ -28,7 +28,7 @@ An ecommerce operations manager could replay historical publication decisions ag
 
 **HR-ERP.** The payroll manager has a preview register and an effective-dated roster. Work with the HR data steward and finance reviewer to decide which employee exceptions can be resolved before the pay run closes.
 
-The payroll service owner could compare a shadow run with the normal reconciliation. Measure missing payment instructions alongside retry time and off-cycle corrections. Pittsburgh’s payroll guidance distinguishes late hires discovered during and after register review. [University of Pittsburgh late-action charts](https://www.payroll.pitt.edu/late-action-charts)
+The payroll service owner could compare a shadow run with the normal reconciliation. Measure missing payment instructions alongside retry time and off-cycle corrections. Pittsburgh’s payroll guidance distinguishes late hires discovered during and after register review. [University of Pittsburgh late-action charts](https://www.payroll.pitt.edu/late-action-charts) · [University of Florida payroll review checklist](https://www.fa.ufl.edu/wp-content/uploads/2019/04/Steps-for-Reviewing-Payroll.pdf)
 
 [Build screenshot](demo-previews/HR-ERP.jpg) · [Review the change](https://github.com/SafetyMP/HR-ERP/pull/241) · [Published demo](https://safetymp.github.io/HR-ERP/)
 
