@@ -6,7 +6,7 @@ I build open-source tools at the intersection of enterprise operations, AI, and 
 
 **My thesis: manage risk without sacrificing innovation.** These projects explore how people can understand automated decisions, inspect evidence, and retain authority over consequential actions.
 
-[Explore the projects](#featured-projects) · [Choose a demo by the decision you face](docs/demo-field-guide.md) · [More of the portfolio](#more-of-the-portfolio) · [Connect on LinkedIn](https://www.linkedin.com/in/sage-hart-csp)
+[Explore the projects](#featured-projects) · [Review the proposed demos by role](docs/demo-field-guide.md) · [More of the portfolio](#more-of-the-portfolio) · [Connect on LinkedIn](https://www.linkedin.com/in/sage-hart-csp)
 
 ## Featured projects
 
@@ -20,15 +20,15 @@ Compare the same agent request under different control conditions, trace why a d
 
 ### Autonomous EHS Management — connect incidents to accountable action
 
-Self-hosted corporate EHS software for incident investigation, corrective and preventive actions (CAPA), approvals, and evidence across sites. Explore the corporate overview and incident-to-CAPA journey, or run the full application locally.
+Self-hosted corporate EHS software for incident investigation, corrective and preventive actions (CAPA), approvals, and evidence across sites. The public case follows a corrective action through shift handoffs. The full application runs locally.
 
-**Application with a synthetic, read-only walkthrough.** People retain approval and closure authority; module maturity varies. The demo does not validate a deployment or establish regulatory compliance.
+**Application with a synthetic walkthrough.** People retain approval and closure authority. Module maturity varies. The demo does not validate a deployment or establish regulatory compliance.
 
 [Explore the walkthrough](https://safetymp.github.io/Autonomous-EHS-Management/) · [Source](https://github.com/SafetyMP/Autonomous-EHS-Management) · [Self-hosting guide](https://github.com/SafetyMP/Autonomous-EHS-Management/blob/main/docs/self-host-quickstart.md)
 
 ### FidusGate — understand tool-call decisions and verify receipts
 
-A Model Context Protocol (MCP) policy gateway and operator console combining Cedar authorization with signed decision receipts. Inspect allow/deny reasons, explore policy scenarios, and verify receipt signatures.
+A Model Context Protocol (MCP) policy gateway and operator console combining Cedar authorization with signed decision receipts. Use synthetic evidence to investigate a disputed tool-call decision and verify a signed receipt.
 
 **Reference implementation.** Public scenarios are synthetic; browser signature checks are real, but do not prove tool execution or issuer trust. Connected operations require the separate development gateway.
 
@@ -44,7 +44,7 @@ A governance workspace for following alerts to supporting evidence, recording ac
 
 ### Commerce Reliability Kit — reproduce integration failures
 
-Investigate order, fulfillment, and inventory discrepancies. Compare faulty and corrected behavior against the same evidence, inspect assertions, and export reports. A Node CLI and library support scenarios and normalized captures; the browser demo has its own evaluator.
+Investigate order, fulfillment, and inventory discrepancies. The Node CLI and library test synthetic scenarios and normalized captures, then produce reports with the supporting evidence. The public demo lets an operations team work through a discrepancy.
 
 **Early toolkit with synthetic demonstrations.** Missing evidence can produce an inconclusive result. No merchant accounts are connected and demo outcomes do not validate a production integration.
 
@@ -55,8 +55,8 @@ Investigate order, fulfillment, and inventory discrepancies. Compare faulty and 
 | Project | What you can explore | Entry point |
 | --- | --- | --- |
 | [SOC-2](https://github.com/SafetyMP/SOC-2) | Local GitHub readiness assessment, finding review, next steps, and export. Three repository checks; not a complete SOC 2 assessment or certification. | [Synthetic demo](https://safetymp.github.io/SOC-2/) · [Local assessment](https://github.com/SafetyMP/SOC-2/blob/main/docs/local-github-assessment.md) |
-| [Healthcare Data Exchange](https://github.com/SafetyMP/Healthcare-Data-Exchange) | Guided consent, care-team, and regional-access scenarios, with a separate FHIR/OPA/OPAL backend reference. Synthetic data; no clinical use. | [Guided demo](https://safetymp.github.io/Healthcare-Data-Exchange/) |
-| [Asclepius](https://github.com/SafetyMP/Asclepius) | Fictional visit and referral journeys, linked health records, and a validation lab. Educational FHIR subset; no clinical use or full conformance claim. | [Learning app](https://safetymp.github.io/Asclepius/) |
+| [Healthcare Data Exchange](https://github.com/SafetyMP/Healthcare-Data-Exchange) | Consent, purpose and recipient rules for sharing records, with a separate FHIR/OPA/OPAL backend reference. Synthetic data; no clinical use. | [Guided demo](https://safetymp.github.io/Healthcare-Data-Exchange/) |
+| [Asclepius](https://github.com/SafetyMP/Asclepius) | Fictional referrals and the documents that return to a referring team. Educational FHIR subset; no clinical use or full conformance claim. | [Learning app](https://safetymp.github.io/Asclepius/) |
 | [HR-ERP](https://github.com/SafetyMP/HR-ERP) | Multi-tenant HR fixture for agent governance, tenant isolation, and evidence gates. Synthetic employee/HR demo; not a production HRIS or certified payroll product. | [Browser demo](https://safetymp.github.io/HR-ERP/) |
 | [Professional Service Automation](https://github.com/SafetyMP/Professional-Service-Automation) | Consulting realization: approved time, work in progress, draft/issued invoices, and project margin. A scoped reference application. | [Source and setup](https://github.com/SafetyMP/Professional-Service-Automation#quick-start) |
 | [CorpOS](https://github.com/SafetyMP/CorpOS) | A scripted company day with agent handoffs, tool controls, and human approval. A simulation and reference architecture. | [Local demo](https://github.com/SafetyMP/CorpOS#demo) |
