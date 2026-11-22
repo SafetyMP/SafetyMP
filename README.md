@@ -6,7 +6,7 @@ I build open-source tools at the intersection of enterprise operations, AI, and 
 
 **My thesis: manage risk without sacrificing innovation.** These projects explore how people can understand automated decisions, inspect evidence, and retain authority over consequential actions.
 
-[Explore the projects](#featured-projects) · [More of the portfolio](#more-of-the-portfolio) · [Connect on LinkedIn](https://www.linkedin.com/in/sage-hart-csp)
+[Explore the projects](#featured-projects) · [Choose a demo by the decision you face](docs/demo-field-guide.md) · [More of the portfolio](#more-of-the-portfolio) · [Connect on LinkedIn](https://www.linkedin.com/in/sage-hart-csp)
 
 ## Featured projects
 
@@ -75,4 +75,4 @@ The repositories span TypeScript/React interfaces, Python tooling, Go services, 
 
 Connect with me on [LinkedIn](https://www.linkedin.com/in/sage-hart-csp). For project questions, bugs, and contributions, start with that repository's README and contribution guide. For profile corrections, see [Contributing](https://github.com/SafetyMP/SafetyMP/blob/main/CONTRIBUTING.md); report vulnerabilities through the affected project's [security policy](https://github.com/SafetyMP/SafetyMP/blob/main/SECURITY.md).
 
-Portfolio reviewed **November 14, 2026**. [Source and maintenance notes](https://github.com/SafetyMP/SafetyMP/blob/main/docs/portfolio-sources.md) · [Profile license: Apache-2.0](https://github.com/SafetyMP/SafetyMP/blob/main/LICENSE). Each linked project retains its own license and third-party terms.
+Portfolio reviewed **November 22, 2026**. [Source and maintenance notes](https://github.com/SafetyMP/SafetyMP/blob/main/docs/portfolio-sources.md) · [Profile license: Apache-2.0](https://github.com/SafetyMP/SafetyMP/blob/main/LICENSE). Each linked project retains its own license and third-party terms.
