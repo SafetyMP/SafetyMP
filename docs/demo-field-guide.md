@@ -2,7 +2,7 @@
 
 In the APS bearings case, a buyer has to release an order in time for assembly. Change the age of the approval and the decision changes. The same question is worth asking elsewhere in the portfolio. **Which fact would change what you do next, and what would it cost to establish that fact routinely?** [Try the APS case](https://safetymp.github.io/Agentic-Process-Safety/#/study)
 
-The cases use fictional records. Choose the row closest to your work. The middle column identifies the people handling the day-to-day decision. The proposed sponsor in the last column would decide whether to fund or expand the trial. Titles will vary by organization. The screen previews below show the proposed redesigns. The demo links open each project’s published version.
+The cases use fictional records. Choose the row closest to your work. The middle column identifies the people handling the day-to-day decision. The proposed sponsor in the last column would decide whether to fund or expand the trial. Titles will vary by organization. The screen previews below show the proposed redesigns. The demo links open each project’s published version. The [audience audit](audience-audit.md) records which decisions reviewers tried, what changed, and which questions need a session with real operators.
 
 ## Operations and finance
 
