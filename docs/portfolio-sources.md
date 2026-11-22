@@ -1,6 +1,12 @@
 # Portfolio source notes
 
-Reviewed **November 14, 2026**. This is a dated editorial snapshot, not a continuously monitored status report.
+## November 22, 2026
+
+The public GitHub inventory contains 14 repositories. Eleven have their own demos, including APS. Nine of those projects use GitHub Pages. CorpOS and Professional Service Automation provide local applications. The remaining repositories are this profile, the healthcare policy mirror and the archived Corporate/Site Harness. The [demo field guide](demo-field-guide.md) connects those entry points to decisions a visitor can investigate. Its suggested pilot measures are hypotheses. Each project's published README describes the software available on its default branch. [Public repository inventory](https://github.com/SafetyMP?tab=repositories)
+
+## November 14, 2026
+
+The following notes document the earlier profile refresh.
 
 ## Scope and sources
 
