@@ -6,7 +6,7 @@ I build open-source tools at the intersection of enterprise operations, AI, and 
 
 **My thesis: manage risk without sacrificing innovation.** These projects explore how people can understand automated decisions, inspect evidence, and retain authority over consequential actions.
 
-[Explore the projects](#featured-projects) · [Review the proposed demos by role](docs/demo-field-guide.md) · [More of the portfolio](#more-of-the-portfolio) · [Connect on LinkedIn](https://www.linkedin.com/in/sage-hart-csp)
+[Explore the projects](#featured-projects) · [Choose a business case and follow its technical trial](docs/demo-field-guide.md) · [More of the portfolio](#more-of-the-portfolio) · [Connect on LinkedIn](https://www.linkedin.com/in/sage-hart-csp)
 
 ## Featured projects
 
