@@ -25,17 +25,17 @@ Start with a decision you recognize. Each case uses fictional records you can in
 
 [Reviewing a changed release artifact](#reviewing-a-changed-release-artifact) is a written case from the archived Corporate/Site Harness.
 
-A **Published demo** runs in a browser. A **Review preview** is a browser build of the version awaiting review. Each preview includes its own technical guide. A **Draft PR** opens the GitHub change for review. The opening views below show the version described in each entry.
+A **Published demo** runs in a browser. A **Review preview** is a browser build of the version awaiting review. Each preview includes its own technical guide. A **Draft PR** opens the GitHub change for review. The screenshots show the opening of the version described in each entry.
 
 ## Buying parts for production
 
-**Agentic Process Safety.** A buyer needs 24 bearings for Thursday’s assembly. Finance approved the spend, but stock, quote validity and the age of that approval can change while the order waits. A late order can stop the line. A second order can leave the plant paying twice.
+**Agentic Process Safety.** A buyer needs 24 bearings for Thursday’s assembly. Finance approved the spend, but stock, quote validity and the age of that approval can change while the order waits. A late order can stop the line. An order sent after the quote expires can leave the buyer reconciling unexpected terms with Finance.
 
 **Your decision.** What should the purchasing agent be allowed to do when it reaches the supplier with that approval?
 
-**Who would fund it?** The supply-chain lead can compare a rule in the purchasing system with a four-week agent pilot running alongside it. Which catches stale orders, and how much buyer time does each take?
+[Published demo](https://safetymp.github.io/Agentic-Process-Safety/#/study) · [Published technical guide](https://safetymp.github.io/Agentic-Process-Safety/#/overview?age=60&quote=13%3A55&stock=unknown&trial=15) · [Screenshot — The bearing order from purchase approval to the assembly line](demo-previews/Agentic-Process-Safety.jpg)
 
-[Published demo](https://safetymp.github.io/Agentic-Process-Safety/#/study) · [Published technical guide](https://safetymp.github.io/Agentic-Process-Safety/#/overview?age=60&quote=13%3A55&stock=unknown&trial=15) · [Opening view — The bearing order from purchase approval to the assembly line](demo-previews/Agentic-Process-Safety.jpg)
+**Who would fund it?** The supply-chain lead can compare a rule in the purchasing system with a four-week agent pilot running alongside it. Which catches stale orders, and how much buyer time does each take?
 
 ## Answering a customer about a shipment
 
@@ -43,9 +43,9 @@ A **Published demo** runs in a browser. A **Review preview** is a browser build 
 
 **Your decision.** What can Jo tell Mina in time for her to arrange a pickup?
 
-**Who would fund it?** The merchant operations lead can compare manual checks with a test of the checkout-to-packing connection. Count calls avoided and promises the packing evidence could actually support.
+[Review preview](https://raw.githack.com/SafetyMP/SafetyMP/30a6bb848cd29f30183e37206587366b98dbf6d7/docs/review-builds/commerce-reliability-kit/index.html) (select **Open the page** if prompted) · [Draft PR](https://github.com/SafetyMP/commerce-reliability-kit/pull/6) · [Screenshot — How checkout, packing and support see the same order](demo-previews/commerce-reliability-kit.jpg)
 
-[Review preview](https://raw.githack.com/SafetyMP/SafetyMP/30a6bb848cd29f30183e37206587366b98dbf6d7/docs/review-builds/commerce-reliability-kit/index.html) · [Draft PR](https://github.com/SafetyMP/commerce-reliability-kit/pull/6) · [Opening view — How checkout, packing and support see the same order](demo-previews/commerce-reliability-kit.jpg)
+**Who would fund it?** The merchant operations lead can compare manual checks with a test of the checkout-to-packing connection. Count calls avoided and promises the packing evidence could actually support.
 
 The published desk uses an unnamed shop’s partial shipment. [Published demo](https://safetymp.github.io/commerce-reliability-kit/) · [Published technical guide](https://safetymp.github.io/commerce-reliability-kit/#technical?packet=faulty&stage=capture&trial=reconciled)
 
@@ -55,9 +55,9 @@ The published desk uses an unnamed shop’s partial shipment. [Published demo](h
 
 **Your decision.** Which shift evidence would you hand Alex before asking for a closure decision? Practice gathering observations on a dock walk, then open Maya’s conveyor file.
 
-**Who would fund it?** The plant manager can compare email, a tracker and a shared action record. Can another shift verify the evidence without sending Maya back to the floor?
+[Review preview](https://raw.githack.com/SafetyMP/SafetyMP/30a6bb848cd29f30183e37206587366b98dbf6d7/docs/review-builds/Autonomous-EHS-Management/index.html) (select **Open the page** if prompted) · [Draft PR](https://github.com/SafetyMP/Autonomous-EHS-Management/pull/171) · [Screenshot — A conveyor repair crosses a shift change](demo-previews/Autonomous-EHS-Management.jpg)
 
-[Review preview](https://raw.githack.com/SafetyMP/SafetyMP/30a6bb848cd29f30183e37206587366b98dbf6d7/docs/review-builds/Autonomous-EHS-Management/index.html) · [Draft PR](https://github.com/SafetyMP/Autonomous-EHS-Management/pull/171) · [Opening view — A conveyor repair crosses a shift change](demo-previews/Autonomous-EHS-Management.jpg)
+**Who would fund it?** The plant manager can compare email, a tracker and a shared action record. Can another shift verify the evidence without sending Maya back to the floor?
 
 The published case opens at the conveyor evidence packets. [Published demo](https://safetymp.github.io/Autonomous-EHS-Management/) · [Published technical guide](https://safetymp.github.io/Autonomous-EHS-Management/#/technical)
 
@@ -67,9 +67,9 @@ The published case opens at the conveyor evidence packets. [Published demo](http
 
 **Your decision.** Which request states would you test before recommending a release to the HR systems owner?
 
-**Who would fund it?** The HR technology owner can compare a reviewer checklist, a balance regression test and a broader test pilot. Track missed balance defects alongside review time.
+[Review preview](https://raw.githack.com/SafetyMP/SafetyMP/30a6bb848cd29f30183e37206587366b98dbf6d7/docs/review-builds/HR-ERP/index.html) (select **Open the page** if prompted) · [Draft PR](https://github.com/SafetyMP/HR-ERP/pull/243) · [Screenshot — The same day off as seen by the employee, manager and HR](demo-previews/HR-ERP.jpg)
 
-[Review preview](https://raw.githack.com/SafetyMP/SafetyMP/30a6bb848cd29f30183e37206587366b98dbf6d7/docs/review-builds/HR-ERP/index.html) · [Draft PR](https://github.com/SafetyMP/HR-ERP/pull/243) · [Opening view — The same day off as seen by the employee, manager and HR](demo-previews/HR-ERP.jpg)
+**Who would fund it?** The HR technology owner can compare a reviewer checklist, a balance regression test and a broader test pilot. Track missed balance defects alongside review time.
 
 The published version opens at Alex’s balance review. [Published demo](https://safetymp.github.io/HR-ERP/) · [Published technical guide](https://safetymp.github.io/HR-ERP/#/technical?revision=A&state=Approved&run=A-approved)
 
@@ -79,9 +79,9 @@ The published version opens at Alex’s balance review. [Published demo](https:/
 
 **Your decision.** When would you release the customer batch? Replay the timing to see which obligations settle by their deadlines. A separate euro case lets an independent risk reviewer challenge a 30-day liquidity figure.
 
-**Who would fund it?** The CFO can test whether a shared review file saves time and lets a second reviewer trace the figures to the same source and date.
+[Review preview](https://raw.githack.com/SafetyMP/SafetyMP/30a6bb848cd29f30183e37206587366b98dbf6d7/docs/review-builds/Financial-Digital-Twin-Compliance/index.html) (select **Open the page** if prompted) · [Draft PR](https://github.com/SafetyMP/Financial-Digital-Twin-Compliance/pull/280) · [Screenshot — Northstar’s treasury and risk teams prepare for their funding meeting](demo-previews/Financial-Digital-Twin-Compliance.jpg)
 
-[Review preview](https://raw.githack.com/SafetyMP/SafetyMP/30a6bb848cd29f30183e37206587366b98dbf6d7/docs/review-builds/Financial-Digital-Twin-Compliance/index.html) · [Draft PR](https://github.com/SafetyMP/Financial-Digital-Twin-Compliance/pull/280) · [Opening view — Northstar’s treasury and risk teams prepare for their funding meeting](demo-previews/Financial-Digital-Twin-Compliance.jpg)
+**Who would fund it?** The CFO can test whether a shared review file saves time and lets a second reviewer trace the figures to the same source and date.
 
 The published version opens at the euro liquidity alert. [Published demo](https://safetymp.github.io/Financial-Digital-Twin-Compliance/) · [Published technical guide](https://safetymp.github.io/Financial-Digital-Twin-Compliance/workspace/)
 
@@ -91,9 +91,9 @@ The published version opens at the euro liquidity alert. [Published demo](https:
 
 **Your decision.** Looking at the signed work, the invoice register and the client reference, would you issue, hold or cancel the draft? Try another choice on the same Friday.
 
-**Who would fund it?** The finance partner can compare the workbook, a draft register and a parallel billing pilot. Count review time and corrections on the same projects.
+[Review preview](https://raw.githack.com/SafetyMP/SafetyMP/30a6bb848cd29f30183e37206587366b98dbf6d7/docs/review-builds/Professional-Service-Automation/index.html) (select **Open the page** if prompted) · [Draft PR](https://github.com/SafetyMP/Professional-Service-Automation/pull/110) · [Screenshot — Delivery, finance and client payables prepare for Friday billing](demo-previews/Professional-Service-Automation.jpg)
 
-[Review preview](https://raw.githack.com/SafetyMP/SafetyMP/30a6bb848cd29f30183e37206587366b98dbf6d7/docs/review-builds/Professional-Service-Automation/index.html) · [Draft PR](https://github.com/SafetyMP/Professional-Service-Automation/pull/110) · [Opening view — Delivery, finance and client payables prepare for Friday billing](demo-previews/Professional-Service-Automation.jpg)
+**Who would fund it?** The finance partner can compare the workbook, a draft register and a parallel billing pilot. Count review time and corrections on the same projects.
 
 The default-branch application requires local setup. [Source and setup](https://github.com/SafetyMP/Professional-Service-Automation#quick-start)
 
@@ -103,9 +103,9 @@ The default-branch application requires local setup. [Source and setup](https://
 
 **Your decision.** Does this letter answer Willow’s open request? Compare it with the other letter before marking a report received. A clinician still owns review of the report and Maya’s care.
 
-**Who would fund it?** The education lead can compare a mentor walkthrough, a one-page guide and a practice exercise. Can learners explain a new referral a week later, and how much instructor time did it take?
+[Review preview](https://raw.githack.com/SafetyMP/SafetyMP/30a6bb848cd29f30183e37206587366b98dbf6d7/docs/review-builds/Asclepius/index.html) (select **Open the page** if prompted) · [Draft PR](https://github.com/SafetyMP/Asclepius/pull/104) · [Screenshot — Willow sends Maya’s request to Cedar and waits for a specialist’s letter](demo-previews/Asclepius.jpg)
 
-[Review preview](https://raw.githack.com/SafetyMP/SafetyMP/30a6bb848cd29f30183e37206587366b98dbf6d7/docs/review-builds/Asclepius/index.html) · [Draft PR](https://github.com/SafetyMP/Asclepius/pull/104) · [Opening view — Willow sends Maya’s request to Cedar and waits for a specialist’s letter](demo-previews/Asclepius.jpg)
+**Who would fund it?** The education lead can compare a mentor walkthrough, a one-page guide and a practice exercise. Can learners explain a new referral a week later, and how much instructor time did it take?
 
 The published version opens at Willow’s report-receipt decision. [Published demo](https://safetymp.github.io/Asclepius/) · [Published technical guide](https://safetymp.github.io/Asclepius/workspace/)
 
@@ -115,9 +115,9 @@ The published version opens at Willow’s report-receipt decision. [Published de
 
 **Your decision.** Which fields, if any, would you prepare for this requester? See what the coordinator could do with each packet. The study team decides eligibility.
 
-**Who would fund it?** The exchange operations director can compare manual reviews with a checklist or a rules-assisted pilot. Sample both excess disclosures and authorized requests held up.
+[Review preview](https://raw.githack.com/SafetyMP/SafetyMP/30a6bb848cd29f30183e37206587366b98dbf6d7/docs/review-builds/Healthcare-Data-Exchange/index.html) (select **Open the page** if prompted) · [Draft PR](https://github.com/SafetyMP/Healthcare-Data-Exchange/pull/186) · [Screenshot — The steward’s desk and the open row on Anna’s study roster](demo-previews/Healthcare-Data-Exchange.jpg)
 
-[Review preview](https://raw.githack.com/SafetyMP/SafetyMP/30a6bb848cd29f30183e37206587366b98dbf6d7/docs/review-builds/Healthcare-Data-Exchange/index.html) · [Draft PR](https://github.com/SafetyMP/Healthcare-Data-Exchange/pull/186) · [Opening view — The steward’s desk and the open row on Anna’s study roster](demo-previews/Healthcare-Data-Exchange.jpg)
+**Who would fund it?** The exchange operations director can compare manual reviews with a checklist or a rules-assisted pilot. Sample both excess disclosures and authorized requests held up.
 
 The published version opens at the privacy desk intake. [Published demo](https://safetymp.github.io/Healthcare-Data-Exchange/#research-request) · [Published technical guide](https://safetymp.github.io/Healthcare-Data-Exchange/#technical/research/withheld/receiver/selected)
 
@@ -127,9 +127,9 @@ The published version opens at the privacy desk intake. [Published demo](https:/
 
 **Your decision.** Can you confirm the next matching read will be denied here, or does someone still need to verify it? Inspect the receiving gateway’s record, then try the other shift file.
 
-**Who would fund it?** The exchange operations director can weigh independent rule releases against the cost of maintaining distribution and verifying receipt. The exchange owns the rule and the companion repository mirrors it.
+[Review preview](https://raw.githack.com/SafetyMP/SafetyMP/30a6bb848cd29f30183e37206587366b98dbf6d7/docs/review-builds/healthcare-policy/index.html) (select **Open the page** if prompted) · [Draft PR](https://github.com/SafetyMP/healthcare-policy/pull/16) · [Draft PR for the shared operator interface](https://github.com/SafetyMP/Healthcare-Data-Exchange/pull/186) · [Screenshot — The access rule and Anna’s withdrawal take separate paths to the gateway](demo-previews/healthcare-policy.jpg)
 
-[Review preview](https://raw.githack.com/SafetyMP/SafetyMP/30a6bb848cd29f30183e37206587366b98dbf6d7/docs/review-builds/healthcare-policy/index.html) · [Draft PR](https://github.com/SafetyMP/healthcare-policy/pull/16) · [Draft PR for the shared operator interface](https://github.com/SafetyMP/Healthcare-Data-Exchange/pull/186) · [Opening view — The access rule and Anna’s withdrawal take separate paths to the gateway](demo-previews/healthcare-policy.jpg)
+**Who would fund it?** The exchange operations director can weigh independent rule releases against the cost of maintaining distribution and verifying receipt. The exchange owns the rule and the companion repository mirrors it.
 
 The published exchange has a rule-publication trace. The operator decision is awaiting publication. [Published rule-publication trace](https://safetymp.github.io/Healthcare-Data-Exchange/#policy-provenance)
 
@@ -139,9 +139,9 @@ The published exchange has a rule-publication trace. The operator decision is aw
 
 **Your decision.** As platform lead, which handoff would you authorize after comparing Ada’s account with the service observations?
 
-**Who would fund it?** The platform engineering lead can compare the ticket queue, a handoff checklist and a shadow pilot. Time how long it takes the next person to find the owner and authority for each action.
+[Review preview](https://raw.githack.com/SafetyMP/SafetyMP/30a6bb848cd29f30183e37206587366b98dbf6d7/docs/review-builds/CorpOS/index.html) (select **Open the page** if prompted) · [Draft PR](https://github.com/SafetyMP/CorpOS/pull/98) · [Screenshot — Support, finance and operations each see one part of Ada’s credit](demo-previews/CorpOS.jpg)
 
-[Review preview](https://raw.githack.com/SafetyMP/SafetyMP/30a6bb848cd29f30183e37206587366b98dbf6d7/docs/review-builds/CorpOS/index.html) · [Draft PR](https://github.com/SafetyMP/CorpOS/pull/98) · [Opening view — Support, finance and operations each see one part of Ada’s credit](demo-previews/CorpOS.jpg)
+**Who would fund it?** The platform engineering lead can compare the ticket queue, a handoff checklist and a shadow pilot. Time how long it takes the next person to find the owner and authority for each action.
 
 The published version opens at the billing restart handoff. [Published demo](https://safetymp.github.io/CorpOS/) · [Published technical guide](https://safetymp.github.io/CorpOS/#guide)
 
@@ -151,9 +151,9 @@ The published version opens at the billing restart handoff. [Published demo](htt
 
 **Your decision.** Which records would let Priya answer Alex about that particular release? Open the June record and decide what else to request.
 
-**Who would fund it?** The compliance lead can measure whether collecting settings locally saves engineering time on repeated requests. A CPA performs the independent SOC 2 examination.
+[Review preview](https://raw.githack.com/SafetyMP/SafetyMP/30a6bb848cd29f30183e37206587366b98dbf6d7/docs/review-builds/SOC-2/index.html) (select **Open the page** if prompted) · [Draft PR](https://github.com/SafetyMP/SOC-2/pull/32) · [Screenshot — Eastbank considers expanding dispatch software from one depot to three](demo-previews/SOC-2.jpg)
 
-[Review preview](https://raw.githack.com/SafetyMP/SafetyMP/30a6bb848cd29f30183e37206587366b98dbf6d7/docs/review-builds/SOC-2/index.html) · [Draft PR](https://github.com/SafetyMP/SOC-2/pull/32) · [Opening view — Eastbank considers expanding dispatch software from one depot to three](demo-previews/SOC-2.jpg)
+**Who would fund it?** The compliance lead can measure whether collecting settings locally saves engineering time on repeated requests. A CPA performs the independent SOC 2 examination.
 
 The published version opens at the release-approval evidence desk. [Published demo](https://safetymp.github.io/SOC-2/#case) · [Published technical guide](https://safetymp.github.io/SOC-2/#technical)
 
@@ -163,9 +163,9 @@ The published version opens at the release-approval evidence desk. [Published de
 
 **Your decision.** What can Maya put in the change ticket from the forwarded copy, the signed receipt and the file history?
 
-**Who would fund it?** The platform security lead can compare a standard log export with a signed-receipt pilot. Count investigation time and the work of managing trusted signing keys.
+[Review preview](https://raw.githack.com/SafetyMP/SafetyMP/30a6bb848cd29f30183e37206587366b98dbf6d7/docs/review-builds/FidusGate/index.html) (select **Open the page** if prompted) · [Draft PR](https://github.com/SafetyMP/FidusGate/pull/181) · [Screenshot — Maya’s ticket and the customer fix waiting on the investigation](demo-previews/FidusGate.jpg)
 
-[Review preview](https://raw.githack.com/SafetyMP/SafetyMP/30a6bb848cd29f30183e37206587366b98dbf6d7/docs/review-builds/FidusGate/index.html) · [Draft PR](https://github.com/SafetyMP/FidusGate/pull/181) · [Opening view — Maya’s ticket and the customer fix waiting on the investigation](demo-previews/FidusGate.jpg)
+**Who would fund it?** The platform security lead can compare a standard log export with a signed-receipt pilot. Count investigation time and the work of managing trusted signing keys.
 
 The published version opens at a disputed tool decision. [Published demo](https://safetymp.github.io/FidusGate/#/case) · [Published technical guide](https://safetymp.github.io/FidusGate/#/technical?packet=received&fixture=FG-1048&stage=signature)
 
