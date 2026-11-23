@@ -6,62 +6,44 @@ I build open-source tools at the intersection of enterprise operations, AI, and 
 
 **My thesis: manage risk without sacrificing innovation.** These projects explore how people can understand automated decisions, inspect evidence, and retain authority over consequential actions.
 
-[Explore the projects](#featured-projects) · [Choose a business case and follow its technical trial](docs/demo-field-guide.md) · [More of the portfolio](#more-of-the-portfolio) · [Connect on LinkedIn](https://www.linkedin.com/in/sage-hart-csp)
+## Find a case for your work
+
+[Open the demo field guide](docs/demo-field-guide.md) to choose a role, inspect a case file and try a decision. Three teams work with healthcare records here. Choose the handoff you own.
+
+- **Referral coordinator.** Does the specialist’s letter answer the request your clinic is tracking? [Follow Maya’s referral in Asclepius](docs/demo-field-guide.md#tracking-a-specialists-reply)
+- **Data steward.** What information can you send a study team trying to complete its roster? [Open the Healthcare Data Exchange disclosure desk](docs/demo-field-guide.md#choosing-what-a-study-team-may-receive)
+- **Exchange operator.** After a patient withdraws consent, what can you tell the privacy officer about the next request? [Open the healthcare-policy operator case](docs/demo-field-guide.md#verifying-a-withdrawal-at-the-gateway)
 
 ## Featured projects
 
-### Agentic Process Safety — investigate agent failure modes
+### Agentic Process Safety
 
-Compare the same agent request under different control conditions, trace why a decision changes, and form an evidence-backed position. The guided app connects procurement cases, HAZOP analysis, proposed controls, and recorded synthetic experiments.
+A buyer needs bearings for Thursday’s assembly. Compare what happens when a purchasing agent reaches the supplier with a different stock check, quote or approval time. The recorded trials use a fixed model and synthetic orders. [Explore the buyer’s decision](docs/demo-field-guide.md#buying-parts-for-production) · [Source](https://github.com/SafetyMP/Agentic-Process-Safety)
 
-**Research and learning workspace.** Browser comparisons illustrate a fixed model; hazards remain unverified and controls proposed. No real purchases or safety certification.
+### Autonomous EHS Management
 
-[Explore the app](https://safetymp.github.io/Agentic-Process-Safety/) · [Source](https://github.com/SafetyMP/Agentic-Process-Safety) · [Investigation guide](https://github.com/SafetyMP/Agentic-Process-Safety/blob/main/docs/USER_GUIDE.md)
+A completed work order reaches the next shift. The action owner still needs evidence of how the conveyor guard performs during work. The case follows the human closure decision and the self-hosted safety application behind it. [Follow the shift handoff](docs/demo-field-guide.md#handing-a-safety-repair-to-the-next-shift) · [Source](https://github.com/SafetyMP/Autonomous-EHS-Management)
 
-### Autonomous EHS Management — connect incidents to accountable action
+### FidusGate
 
-Self-hosted corporate EHS software for incident investigation, corrective and preventive actions (CAPA), approvals, and evidence across sites. The public case follows a corrective action through shift handoffs. The full application runs locally.
+A release lead must account for an assistant’s request to edit a permissions file. Inspect a signed decision and the file history while a customer fix waits. The reference gateway evaluates tool requests using Cedar. [Investigate the disputed decision](docs/demo-field-guide.md#investigating-a-disputed-tool-decision) · [Source](https://github.com/SafetyMP/FidusGate)
 
-**Application with a synthetic walkthrough.** People retain approval and closure authority. Module maturity varies. The demo does not validate a deployment or establish regulatory compliance.
+### Financial Digital Twin
 
-[Explore the walkthrough](https://safetymp.github.io/Autonomous-EHS-Management/) · [Source](https://github.com/SafetyMP/Autonomous-EHS-Management) · [Self-hosting guide](https://github.com/SafetyMP/Autonomous-EHS-Management/blob/main/docs/self-host-quickstart.md)
+A delayed transfer puts several payments in competition for cash. The treasury desk must decide when to release a customer batch. A separate risk review traces the bank’s 30-day funding figures. Both exercises use synthetic data. [Join Northstar’s funding meeting](docs/demo-field-guide.md#timing-payments-ahead-of-a-funding-meeting) · [Source](https://github.com/SafetyMP/Financial-Digital-Twin-Compliance)
 
-### FidusGate — understand tool-call decisions and verify receipts
+### Commerce Reliability Kit
 
-A Model Context Protocol (MCP) policy gateway and operator console combining Cedar authorization with signed decision receipts. Use synthetic evidence to investigate a disputed tool-call decision and verify a signed receipt.
-
-**Reference implementation.** Public scenarios are synthetic; browser signature checks are real, but do not prove tool execution or issuer trust. Connected operations require the separate development gateway.
-
-[Try the demo](https://safetymp.github.io/FidusGate/) · [Source](https://github.com/SafetyMP/FidusGate) · [Local setup](https://github.com/SafetyMP/FidusGate/blob/main/docs/getting-started.md)
-
-### Financial Digital Twin — review financial monitoring issues
-
-A governance workspace for following alerts to supporting evidence, recording acknowledgements or escalations, and revisiting review history. The connected development workspace integrates alert and audit services with persistent reviews.
-
-**Synthetic public demo and separate connected development application.** Demo reviews stay in the browser. Connected mode uses a configured development identity; this is not a production banking or regulatory filing system.
-
-[Try the demo](https://safetymp.github.io/Financial-Digital-Twin-Compliance/) · [Source](https://github.com/SafetyMP/Financial-Digital-Twin-Compliance) · [Connected workspace](https://github.com/SafetyMP/Financial-Digital-Twin-Compliance/blob/main/docs/governance-integration.md)
-
-### Commerce Reliability Kit — reproduce integration failures
-
-Investigate order, fulfillment, and inventory discrepancies. The Node CLI and library test synthetic scenarios and normalized captures, then produce reports with the supporting evidence. The public demo lets an operations team work through a discrepancy.
-
-**Early toolkit with synthetic demonstrations.** Missing evidence can produce an inconclusive result. No merchant accounts are connected and demo outcomes do not validate a production integration.
-
-[Try the demo](https://safetymp.github.io/commerce-reliability-kit/) · [Source](https://github.com/SafetyMP/commerce-reliability-kit) · [CLI and library guide](https://github.com/SafetyMP/commerce-reliability-kit/blob/main/docs/cli-guide.md)
+A café owner needs five lamps for dinner service. The service desk has a shipping notice and the packers have the carton record. The project’s CLI and library reconcile those records. [Open Jo’s order file](docs/demo-field-guide.md#answering-a-customer-about-a-shipment) · [Source](https://github.com/SafetyMP/commerce-reliability-kit)
 
 ## More of the portfolio
 
-| Project | What you can explore | Entry point |
-| --- | --- | --- |
-| [SOC-2](https://github.com/SafetyMP/SOC-2) | Local GitHub readiness assessment, finding review, next steps, and export. Three repository checks; not a complete SOC 2 assessment or certification. | [Synthetic demo](https://safetymp.github.io/SOC-2/) · [Local assessment](https://github.com/SafetyMP/SOC-2/blob/main/docs/local-github-assessment.md) |
-| [Healthcare Data Exchange](https://github.com/SafetyMP/Healthcare-Data-Exchange) | Consent, purpose and recipient rules for sharing records, with a separate FHIR/OPA/OPAL backend reference. Synthetic data; no clinical use. | [Guided demo](https://safetymp.github.io/Healthcare-Data-Exchange/) |
-| [Asclepius](https://github.com/SafetyMP/Asclepius) | Fictional referrals and the documents that return to a referring team. Educational FHIR subset; no clinical use or full conformance claim. | [Learning app](https://safetymp.github.io/Asclepius/) |
-| [HR-ERP](https://github.com/SafetyMP/HR-ERP) | Multi-tenant HR fixture for agent governance, tenant isolation, and evidence gates. Synthetic employee/HR demo; not a production HRIS or certified payroll product. | [Browser demo](https://safetymp.github.io/HR-ERP/) |
-| [Professional Service Automation](https://github.com/SafetyMP/Professional-Service-Automation) | Consulting realization: approved time, work in progress, draft/issued invoices, and project margin. A scoped reference application. | [Source and setup](https://github.com/SafetyMP/Professional-Service-Automation#quick-start) |
-| [CorpOS](https://github.com/SafetyMP/CorpOS) | A scripted company day with agent handoffs, tool controls, and human approval. A simulation and reference architecture. | [Local demo](https://github.com/SafetyMP/CorpOS#demo) |
-
-**Supporting and historical repositories:** [healthcare-policy](https://github.com/SafetyMP/healthcare-policy) is the OPAL policy mirror; make policy changes in Healthcare Data Exchange. [Corporate/Site Harness](https://github.com/SafetyMP/corporate-site-harness) is an **archived** reference for digest-bound software-delivery gates and human approval.
+- **HR systems reviewer.** Decide what to test before releasing a change to an employee’s leave balance. [HR ERP](docs/demo-field-guide.md#checking-a-change-to-the-leave-portal)
+- **Project accountant.** Reconcile signed client work with Friday’s draft invoice. [Professional Service Automation](docs/demo-field-guide.md#preparing-a-client-invoice)
+- **Platform lead.** Coordinate Support, Finance and the on-call engineer after a missing credit. [CorpOS](docs/demo-field-guide.md#coordinating-a-customer-credit-across-teams)
+- **Compliance lead.** Answer a customer asking who approved a particular software release. [SOC-2](docs/demo-field-guide.md#answering-a-customer-about-release-approval)
+- **Healthcare and exchange teams.** [Track a specialist’s reply](docs/demo-field-guide.md#tracking-a-specialists-reply) · [Prepare a research disclosure](docs/demo-field-guide.md#choosing-what-a-study-team-may-receive) · [Verify a consent withdrawal](docs/demo-field-guide.md#verifying-a-withdrawal-at-the-gateway)
+- **Release reviewer.** Check whether an earlier approval covers the artifact about to ship. [Corporate/Site Harness, archived written case](docs/demo-field-guide.md#reviewing-a-changed-release-artifact)
 
 ## How I approach the work
 
@@ -75,4 +57,4 @@ The repositories span TypeScript/React interfaces, Python tooling, Go services, 
 
 Connect with me on [LinkedIn](https://www.linkedin.com/in/sage-hart-csp). For project questions, bugs, and contributions, start with that repository's README and contribution guide. For profile corrections, see [Contributing](https://github.com/SafetyMP/SafetyMP/blob/main/CONTRIBUTING.md); report vulnerabilities through the affected project's [security policy](https://github.com/SafetyMP/SafetyMP/blob/main/SECURITY.md).
 
-Portfolio reviewed **November 22, 2026**. [Source and maintenance notes](https://github.com/SafetyMP/SafetyMP/blob/main/docs/portfolio-sources.md) · [Profile license: Apache-2.0](https://github.com/SafetyMP/SafetyMP/blob/main/LICENSE). Each linked project retains its own license and third-party terms.
+Portfolio reviewed **November 23, 2026**. [Source and maintenance notes](docs/portfolio-sources.md) · [Profile license: Apache-2.0](https://github.com/SafetyMP/SafetyMP/blob/main/LICENSE). Each linked project retains its own license and third-party terms.

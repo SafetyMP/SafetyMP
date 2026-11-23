@@ -1,5 +1,20 @@
 # Portfolio source notes
 
+## November 23, 2026
+
+The [field guide](demo-field-guide.md) covers twelve interactive cases and one archived written exercise. Ten project sites have a published case and technical guide, including CorpOS. Professional Service Automation runs locally on its default branch. The healthcare-policy operator case shares the Healthcare Data Exchange implementation. The exchange’s published rule-publication trace covers one piece of that workflow. The operator’s decision about the receiving gateway appears in the review build.
+
+APS is the published reference. The other eleven opening images come from their review builds. Each guide entry identifies the earlier case where a visitor can compare the published version. The short funding questions are proposed tests. Potential gains in time, accuracy or avoided delay have yet to be measured in a deployment. [Public repository inventory](https://github.com/SafetyMP?tab=repositories)
+
+### Sources for distinguishing the work
+
+- A referring clinic tracks a request and the specialist’s report. A study team uses information released for a particular purpose. The referral exercise concerns report receipt, while the disclosure exercise concerns fields leaving the gateway. [HL7 referral request](https://hl7.org/fhir/R4/servicerequest.html) · [CRISP research disclosure workflow](https://www.crisphealth.org/research/)
+- An exchange operator needs evidence of what the receiver loaded. Rule publication and consent updates can arrive at different times. [OPA bundle management](https://www.openpolicyagent.org/docs/management-bundles) · [OPAL distribution design](https://docs.opal.ac/overview/design/)
+- A merchant can compare ordered and remaining quantities at the fulfillment line. A project accountant instead reconciles work accepted and amounts already billed. [Shopify fulfillment quantities](https://shopify.dev/docs/api/admin-graphql/latest/objects/FulfillmentOrderLineItem) · [Microsoft project invoicing](https://learn.microsoft.com/en-us/dynamics365/project-operations/invoicing/post-project-invoices)
+- The payments desk works against intraday deadlines. Independent risk monitors stressed liquidity over 30 days. [Basel Committee intraday monitoring](https://www.bis.org/publ/bcbs248.htm) · [Liquidity coverage ratio](https://www.bis.org/publ/bcbs238.htm)
+- A safety action owner gathers evidence that controls work after installation. The platform incident lead coordinates people with distinct responsibilities and observations. [OSHA hazard prevention and control](https://www.osha.gov/safety-management/hazard-prevention) · [Google SRE incident response](https://sre.google/workbook/incident-response/)
+- A customer assurance team answers evidence requests about releases. A tool-call investigator examines the authorization decision for a specific request. A release reviewer checks the identity of the artifact itself. [GitLab customer assurance process](https://handbook.gitlab.com/handbook/security/security-assurance/field-security/customer-security-assessment-process/) · [Cedar authorization](https://docs.cedarpolicy.com/auth/authorization.html) · [SLSA artifact provenance](https://slsa.dev/spec/v1.2/provenance)
+
 ## November 22, 2026
 
 The public GitHub inventory contains 14 repositories. Eleven have their own demos, including APS. Nine of those projects use GitHub Pages. CorpOS and Professional Service Automation provide local applications. The remaining repositories are this profile, the healthcare policy mirror and the archived Corporate/Site Harness. The [demo field guide](demo-field-guide.md) connects those entry points to decisions a visitor can investigate. Its suggested pilot measures are hypotheses. Each project's published README describes the software available on its default branch. [Public repository inventory](https://github.com/SafetyMP?tab=repositories)
