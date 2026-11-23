@@ -2,11 +2,11 @@
 
 ## November 23, 2026
 
-The [field guide](demo-field-guide.md) covers twelve interactive cases and one archived written exercise. Ten project sites have a published case and technical guide, including CorpOS. Professional Service Automation runs locally on its default branch. The healthcare-policy operator case shares the Healthcare Data Exchange implementation. The exchange’s published rule-publication trace covers one piece of that workflow. The operator’s decision about the receiving gateway appears in the review build.
+The [field guide](demo-field-guide.md) covers twelve interactive cases and one archived written exercise. Ten GitHub Pages sites serve eleven cases. Healthcare Data Exchange hosts both the data steward’s disclosure desk and the healthcare-policy operator’s withdrawal case. Each has a separate entry point and technical guide. PSA’s standalone billing case runs in the browser. Running a signed-in transaction requires the local application and database. [Public repository inventory](https://github.com/SafetyMP?tab=repositories)
 
-APS is the published reference. The other eleven opening images come from their review builds. Each guide entry identifies the earlier case where a visitor can compare the published version. The short funding questions are proposed tests. Potential gains in time, accuracy or avoided delay have yet to be measured in a deployment. [Public repository inventory](https://github.com/SafetyMP?tab=repositories)
+Each case links to the project README where readers can locate its implementation and tests. The screenshots show the starting records or business context. The sponsor questions describe proposed tests. The cost and time assumptions are illustrative.
 
-Each review build records its upstream revision, draft PR and licenses in `docs/review-builds/<project>/`. The preview links point to a specific portfolio commit so a later product change cannot quietly change the evidence a reader sees. When a draft ships, open the published case and technical guide in a signed-out browser before updating the entry and its screenshot.
+The packaged builds in `docs/review-builds/` identify the upstream commits and licenses used in the earlier draft review. PSA’s standalone link is pinned to its verified portfolio build. When a product ships, check the public opening, make a decision and follow it into the technical guide before updating its entry.
 
 ### Sources for distinguishing the work
 

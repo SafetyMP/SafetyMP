@@ -51,6 +51,8 @@ A café owner needs five lamps for dinner service. The service desk has a shippi
 - **Keep evidence inspectable:** connect decisions to records, policy, tests, and explicit uncertainty.
 - **Build usable review workflows:** help people understand a result and decide what should happen next.
 
+In the [field guide](docs/demo-field-guide.md), each case pairs the reader’s decision with a technical guide and a link into the project’s implementation. For example, you can follow a partial shipment through its quantity checks or trace a signed-off project milestone into an invoice transaction.
+
 The repositories span TypeScript/React interfaces, Python tooling, Go services, PostgreSQL, and policy-as-code with OPA/Rego and Cedar. Each project documents its own setup, architecture, checks, and limitations. A passing check supports its stated scope; it does not establish production readiness or certification.
 
 ## Connect and contribute
