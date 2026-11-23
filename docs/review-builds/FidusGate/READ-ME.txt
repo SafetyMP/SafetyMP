@@ -1,0 +1,11 @@
+FidusGate review preview
+
+Open index.html in a browser with JavaScript enabled. Case decisions use synthetic records and run locally. Links to the public source and reference documents require internet access.
+
+The entry file bundles the case and its technical guide for local review.
+
+Source revisions and draft reviews
+https://github.com/SafetyMP/FidusGate/tree/1f918e4a282931e7eb9c64d2c6e93a268d14f329
+https://github.com/SafetyMP/FidusGate/pull/181
+
+The licenses directory contains the project license, applicable notices and bundled third-party licenses.

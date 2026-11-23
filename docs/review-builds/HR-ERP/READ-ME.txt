@@ -1,0 +1,11 @@
+HR-ERP review preview
+
+Open index.html in a browser with JavaScript enabled. Case decisions use synthetic records and run locally. Links to the public source and reference documents require internet access.
+
+The entry file bundles the case and its technical guide for local review.
+
+Source revisions and draft reviews
+https://github.com/SafetyMP/HR-ERP/tree/14f5a4ae4e8a9f38bc3c563aa921955d17e3170e
+https://github.com/SafetyMP/HR-ERP/pull/243
+
+The licenses directory contains the project license, applicable notices and bundled third-party licenses.

@@ -1,0 +1,11 @@
+CorpOS review preview
+
+Open index.html in a browser with JavaScript enabled. Case decisions use synthetic records and run locally. Links to the public source and reference documents require internet access.
+
+The entry file bundles the case and its technical guide for local review. The offline copy uses the application’s fallback fonts.
+
+Source revisions and draft reviews
+https://github.com/SafetyMP/CorpOS/tree/4288a22edbc1f65e90aefa483dea21ff8ee00912
+https://github.com/SafetyMP/CorpOS/pull/98
+
+The licenses directory contains the project license, applicable notices and bundled third-party licenses.
