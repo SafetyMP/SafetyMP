@@ -1,0 +1,11 @@
+commerce-reliability-kit review preview
+
+Open index.html in a browser with JavaScript enabled. Case decisions use synthetic records and run locally. Links to the public source and reference documents require internet access.
+
+The entry file bundles the case and its technical guide for local review.
+
+Source revisions and draft reviews
+https://github.com/SafetyMP/commerce-reliability-kit/tree/fb60804b78a7f76169876e45a908df4ef5dd12d6
+https://github.com/SafetyMP/commerce-reliability-kit/pull/6
+
+The licenses directory contains the project license, applicable notices and bundled third-party licenses.

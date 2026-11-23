@@ -1,0 +1,13 @@
+healthcare-policy review preview
+
+Open index.html in a browser with JavaScript enabled. Case decisions use synthetic records and run locally. Links to the public source and reference documents require internet access.
+
+The entry file bundles the case and its technical guide for local review.
+
+Source revisions and draft reviews
+https://github.com/SafetyMP/Healthcare-Data-Exchange/tree/3ea72fe3f5071e28fa826a4eb0b4edb1bf8abc52
+https://github.com/SafetyMP/Healthcare-Data-Exchange/pull/186
+https://github.com/SafetyMP/healthcare-policy/tree/c840e3d4a8771189b423043099f814a8a6595396
+https://github.com/SafetyMP/healthcare-policy/pull/16
+
+The licenses directory contains the project license, applicable notices and bundled third-party licenses.

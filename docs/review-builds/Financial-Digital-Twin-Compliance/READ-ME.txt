@@ -1,0 +1,11 @@
+Financial-Digital-Twin-Compliance review preview
+
+Open index.html in a browser with JavaScript enabled. Case decisions use synthetic records and run locally. Links to the public source and reference documents require internet access.
+
+The entry file bundles the case and its technical guide for local review.
+
+Source revisions and draft reviews
+https://github.com/SafetyMP/Financial-Digital-Twin-Compliance/tree/d0fcc9b351222e44b4c96aae63ae0d63d6db2882
+https://github.com/SafetyMP/Financial-Digital-Twin-Compliance/pull/280
+
+The licenses directory contains the project license, applicable notices and bundled third-party licenses.

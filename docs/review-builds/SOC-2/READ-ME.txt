@@ -1,0 +1,11 @@
+SOC-2 review preview
+
+Open index.html in a browser with JavaScript enabled. Case decisions use synthetic records and run locally. Links to the public source and reference documents require internet access.
+
+The entry file bundles the case and its technical guide for local review. The About page returns to the extracted index.html.
+
+Source revisions and draft reviews
+https://github.com/SafetyMP/SOC-2/tree/e79dd5f1684afa2af45b77827066f5e65992c04e
+https://github.com/SafetyMP/SOC-2/pull/32
+
+The licenses directory contains the project license, applicable notices and bundled third-party licenses.
