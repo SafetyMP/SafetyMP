@@ -22,19 +22,19 @@ A buyer needs bearings for Thursday’s assembly. Compare what happens when a pu
 
 ### Autonomous EHS Management
 
-A completed work order reaches the next shift. The action owner still needs evidence of how the conveyor guard performs during work. The case follows the human closure decision and the self-hosted safety application behind it. [Follow the shift handoff](docs/demo-field-guide.md#handing-a-safety-repair-to-the-next-shift) · [Source](https://github.com/SafetyMP/Autonomous-EHS-Management)
+Maintenance has installed a conveyor guard. Before a reviewer closes the action, the next shift needs to know which working conditions anyone observed. The application links the near miss, named owner and dated observations so the reviewer can ask for a specific field check. [Follow the shift handoff](docs/demo-field-guide.md#handing-a-safety-repair-to-the-next-shift) · [Source](https://github.com/SafetyMP/Autonomous-EHS-Management)
 
 ### FidusGate
 
-A release lead must account for an assistant’s request to edit a permissions file. Inspect a signed decision and the file history while a customer fix waits. The reference gateway evaluates tool requests using Cedar. [Investigate the disputed decision](docs/demo-field-guide.md#investigating-a-disputed-tool-decision) · [Source](https://github.com/SafetyMP/FidusGate)
+A customer fix is on hold after a coding assistant requested an edit to its permissions file. The release lead can check the forwarded decision against a signed gateway receipt, then ask the repository owner for evidence of what happened to the file. [Investigate the disputed decision](docs/demo-field-guide.md#investigating-a-disputed-tool-decision) · [Source](https://github.com/SafetyMP/FidusGate)
 
 ### Financial Digital Twin
 
-A delayed transfer puts several payments in competition for cash. The treasury desk must decide when to release a customer batch. A separate risk review traces the bank’s 30-day funding figures. Both exercises use synthetic data. [Join Northstar’s funding meeting](docs/demo-field-guide.md#timing-payments-ahead-of-a-funding-meeting) · [Source](https://github.com/SafetyMP/Financial-Digital-Twin-Compliance)
+A delayed transfer puts three payments in competition for cash. The treasury desk can replay two release times on the same synthetic ledger to see who would be paid late. A separate risk review traces the figures behind a 30-day liquidity alert before the funding meeting. [Join Northstar’s funding meeting](docs/demo-field-guide.md#timing-payments-ahead-of-a-funding-meeting) · [Source](https://github.com/SafetyMP/Financial-Digital-Twin-Compliance)
 
 ### Commerce Reliability Kit
 
-A café owner needs five lamps for dinner service. The service desk has a shipping notice and the packers have the carton record. The project’s CLI and library reconcile those records. [Open Jo’s order file](docs/demo-field-guide.md#answering-a-customer-about-a-shipment) · [Source](https://github.com/SafetyMP/commerce-reliability-kit)
+A café owner needs five lamps for dinner service. The service desk sees a shipping notice. The kit matches ordered and packed quantities for each item so the desk can tell the customer what is accounted for and what still needs confirmation from the packing bench. [Open Jo’s order file](docs/demo-field-guide.md#answering-a-customer-about-a-shipment) · [Source](https://github.com/SafetyMP/commerce-reliability-kit)
 
 ## More of the portfolio
 
