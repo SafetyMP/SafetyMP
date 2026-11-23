@@ -55,6 +55,6 @@ The repositories span TypeScript/React interfaces, Python tooling, Go services, 
 
 ## Connect and contribute
 
-Connect with me on [LinkedIn](https://www.linkedin.com/in/sage-hart-csp). For project questions, bugs, and contributions, start with that repository's README and contribution guide. For profile corrections, see [Contributing](https://github.com/SafetyMP/SafetyMP/blob/main/CONTRIBUTING.md); report vulnerabilities through the affected project's [security policy](https://github.com/SafetyMP/SafetyMP/blob/main/SECURITY.md).
+Find my public work on [GitHub](https://github.com/SafetyMP) or connect on [LinkedIn (sign-in may be required)](https://www.linkedin.com/in/sage-hart-csp). For project questions, bugs, and contributions, start with that repository's README and contribution guide. For profile corrections, see [Contributing](https://github.com/SafetyMP/SafetyMP/blob/main/CONTRIBUTING.md); report vulnerabilities through the affected project's [security policy](https://github.com/SafetyMP/SafetyMP/blob/main/SECURITY.md).
 
 Portfolio reviewed **November 23, 2026**. [Source and maintenance notes](docs/portfolio-sources.md) · [Profile license: Apache-2.0](https://github.com/SafetyMP/SafetyMP/blob/main/LICENSE). Each linked project retains its own license and third-party terms.

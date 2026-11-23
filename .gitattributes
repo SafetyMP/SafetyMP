@@ -1,0 +1,2 @@
+# Keep packaged upstream browser builds collapsed during a field guide review.
+docs/review-builds/** linguist-generated=true
